@@ -2,6 +2,21 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Components/Header/Navbar";
+import TopBar from "./imgs/TopBar/TopBar.jpg";
+import Image from "next/image";
+import localFont from "next/font/local";
+
+const vazir = localFont({
+  src: [
+    { path: "../public/vazir-font-v16.1.0/Vazir-Thin.woff2", weight: "100" },
+    { path: "../public/vazir-font-v16.1.0/Vazir-Light.woff2", weight: "300" },
+    { path: "../public/vazir-font-v16.1.0/Vazir.woff2", weight: "400" },
+    { path: "../public/vazir-font-v16.1.0/Vazir-Medium.woff2", weight: "500" },
+    { path: "../public/vazir-font-v16.1.0/Vazir-Bold.woff2", weight: "700" },
+  ],
+  variable: "--font-vazir",
+  display: "swap",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,10 +40,15 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      lang="fa"
+      dir="rtl"
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased ${vazir.variable}`}
     >
-      <body className="min-h-full flex flex-col">
+      <body
+        className="min-h-full flex flex-col"
+        style={{ fontFamily: "var(--font-vazir)" }}
+      >
+        <Image src={TopBar} alt="TopBar" className="" />
         <Navbar />
         {children}
       </body>

@@ -6,7 +6,7 @@ import ActionBar from "./ActionBar";
 
 function Navbar() {
   return (
-    <div className="flex flex-row-reverse justify-between  items-center bg-gray-300 h-15  rounded mt-15 ">
+    <div className="flex  justify-between  items-center bg-gray-100 h-15  rounded  ">
       <NavList />
 
       <Search />
