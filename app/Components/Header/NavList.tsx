@@ -32,7 +32,7 @@ function NavList() {
     },
     {
       title: "ارتباط با ما ",
-      href: "/communication",
+      href: "/contactUs",
       id: 6,
     },
   ];
