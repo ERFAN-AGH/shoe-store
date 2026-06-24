@@ -1,9 +1,11 @@
+import BannerGrid from "./Home/BannerGrid";
 import HeroBanner from "./Home/HeroBanner";
 
 export default function Home() {
   return (
     <div>
       <HeroBanner />
+      <BannerGrid />
     </div>
   );
 }
