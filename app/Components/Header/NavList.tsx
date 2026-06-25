@@ -12,7 +12,7 @@ function NavList() {
     },
     {
       title: "محصولات ",
-      href: "/products",
+      href: "/store",
       id: 2,
     },
     {
