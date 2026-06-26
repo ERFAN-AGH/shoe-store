@@ -6,7 +6,7 @@ function NewShoes() {
   const data = db.NewShoe as ProduvtType[];
 
   return (
-    <div className="">
+    <div className=" ">
       <h1 className="flex justify-center mt-5">کفش های جدید</h1>
       <NewShoesSlider items={data} />
     </div>
