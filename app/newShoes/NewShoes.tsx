@@ -1,9 +1,9 @@
-import { ProduvtType } from "../Type/Type";
+import { ProduvtType } from "./../Type/Type";
 import NewShoesSlider from "./NewShoesSlider";
+import db from "../../data/db.json";
 
-async function NewShoes() {
-  const result = await fetch("http://localhost:8000/NewShoe");
-  const data = (await result.json()) as ProduvtType[];
+function NewShoes() {
+  const data = db.NewShoe as ProduvtType[];
 
   return (
     <div className="">
