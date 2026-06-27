@@ -1,6 +1,6 @@
 import { ProduvtType } from "@/app/Type/Type";
 import Image from "next/image";
-import React from "react";
+import db from "./../../../data/db.json";
 
 type ArticelProps = {
   params: Promise<{ id: string }>;
@@ -8,9 +8,8 @@ type ArticelProps = {
 };
 async function page({ params }: ArticelProps) {
   const { id } = await params;
-  const result = await fetch(`http://localhost:8000/NewShoe/${id}`);
-  const data = (await result.json()) as ProduvtType;
-
+  const data = db.NewShoe.find((item) => item.id === id);
+  if (!data) return <div>محصول پیدا نشد</div>;
   return (
     <div>
       <Image
