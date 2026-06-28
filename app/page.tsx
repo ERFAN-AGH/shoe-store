@@ -1,19 +1,19 @@
-import BestSellingsShoes from "./bestSellingsShoes/BestSellingsShoes";
 import BannerGrid from "./Home/BannerGrid";
-import Category from "./Home/Category";
+import Category from "./category/page";
 import HeroBanner from "./Home/HeroBanner";
-import NewShoes from "./newShoes/NewShoes";
-import TrendShoes from "./trendShoes/TrendShoes";
+import TrendShoesList from "./Components/trendShoes/TrendShoesList";
+import NewShoesList from "./Components/NewShoes/NewShoesList";
+import BestSellingsShoesList from "./Components/bestSellingsShoes/BestSellingsShoesList";
 
 export default function Home() {
   return (
     <div>
       <HeroBanner />
       <BannerGrid />
-      <NewShoes />
+      <NewShoesList />
       <Category />
-      <TrendShoes />
-      <BestSellingsShoes />
+      <TrendShoesList />
+      <BestSellingsShoesList />
     </div>
   );
 }

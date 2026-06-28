@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { ProduvtType } from "../Type/Type";
+import { ProduvtType } from "../../Type/Type";
 import Link from "next/link";
-import BestSellingsShoesCart from "../Components/estSellingsShoesCart/BestSellingsShoesCart";
+import BestSellingsShoesCard from "./BestSellingsShoesCard";
 type TTrendShoesSlider = {
   items: ProduvtType[];
 };
@@ -23,7 +23,7 @@ function BestSellingsShoesSlider({ items }: TTrendShoesSlider) {
       <div className="grid grid-cols-5 gap-20  transition-all duration-500">
         {visibleItems.map((item) => (
           <Link key={item.id} href={"/bestSellingsShoes/" + item.id}>
-            <BestSellingsShoesCart {...item} />
+            <BestSellingsShoesCard {...item} />
           </Link>
         ))}
       </div>

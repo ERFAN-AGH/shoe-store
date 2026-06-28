@@ -2,7 +2,7 @@ import { ProduvtType } from "@/app/Type/Type";
 import Image from "next/image";
 import Button from "../button/Button";
 
-function TrendShoesCart({ image, title, views }: ProduvtType) {
+function BestSellingsShoesCard({ image, title, views }: ProduvtType) {
   return (
     <div>
       <div className="bg-emerald-100 my-3 rounded-2xl w-44 h-64 flex flex-col justify-center items-center">
@@ -25,4 +25,4 @@ function TrendShoesCart({ image, title, views }: ProduvtType) {
   );
 }
 
-export default TrendShoesCart;
+export default BestSellingsShoesCard;
