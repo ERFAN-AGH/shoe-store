@@ -1,3 +1,4 @@
+import BestSellingsShoes from "./bestSellingsShoes/BestSellingsShoes";
 import BannerGrid from "./Home/BannerGrid";
 import Category from "./Home/Category";
 import HeroBanner from "./Home/HeroBanner";
@@ -12,6 +13,7 @@ export default function Home() {
       <NewShoes />
       <Category />
       <TrendShoes />
+      <BestSellingsShoes />
     </div>
   );
 }
