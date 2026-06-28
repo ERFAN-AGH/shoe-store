@@ -1,9 +1,10 @@
 import BannerGrid from "./Home/BannerGrid";
-import Category from "./category/page";
+
 import HeroBanner from "./Home/HeroBanner";
 import TrendShoesList from "./Components/trendShoes/TrendShoesList";
 import NewShoesList from "./Components/NewShoes/NewShoesList";
 import BestSellingsShoesList from "./Components/bestSellingsShoes/BestSellingsShoesList";
+import CategoryList from "./Components/category/CategoryList";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       <HeroBanner />
       <BannerGrid />
       <NewShoesList />
-      <Category />
+      <CategoryList />
       <TrendShoesList />
       <BestSellingsShoesList />
     </div>
