@@ -5,10 +5,11 @@ type ArticelProps = {
   params: Promise<{ id: string }>;
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 };
-async function page({ params }: ArticelProps) {
+async function TrendShoesId({ params }: ArticelProps) {
   const { id } = await params;
-  const data = db.NewShoe.find((item) => item.id === id);
+  const data = db.NewShoe.find((item) => item.id == id);
   if (!data) return <div>محصول پیدا نشد</div>;
+
   return (
     <div>
       <Image
@@ -24,4 +25,4 @@ async function page({ params }: ArticelProps) {
   );
 }
 
-export default page;
+export default TrendShoesId;

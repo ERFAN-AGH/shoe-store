@@ -2,6 +2,7 @@ import BannerGrid from "./Home/BannerGrid";
 import Category from "./Home/Category";
 import HeroBanner from "./Home/HeroBanner";
 import NewShoes from "./newShoes/NewShoes";
+import TrendShoes from "./trendShoes/TrendShoes";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <BannerGrid />
       <NewShoes />
       <Category />
+      <TrendShoes />
     </div>
   );
 }
