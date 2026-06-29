@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import MenShoe from "./../../public/images/HeroSection/MenShoe.jpg";
-import WomenShoe from "./../../public/images/HeroSection/WomenShoe.jpg";
+import MenShoe from "./../../../public/images/HeroSection/MenShoe.jpg";
+import WomenShoe from "./../../../public/images/HeroSection/MenShoe.jpg";
 
 const slides = [
   { src: "/images/HeroSection/banner1.jpg", alt: "بنر اول" },
@@ -12,7 +12,7 @@ const slides = [
   { src: "/images/HeroSection/banner5.jpg", alt: "بنر پنجم" },
 ];
 
-function HeroBanner() {
+function HomeBanner() {
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
@@ -87,4 +87,4 @@ function HeroBanner() {
   );
 }
 
-export default HeroBanner;
+export default HomeBanner;
