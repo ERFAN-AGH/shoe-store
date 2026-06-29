@@ -5,6 +5,8 @@ import BestSellingsShoesList from "./Components/bestSellingsShoes/BestSellingsSh
 import CategoryList from "./Components/category/CategoryList";
 import HomeBanner from "./Components/heroBanner/HomeBanner";
 import FeaturesList from "./Components/featuresList/featuresList";
+import DiscountedList from "./Components/discountedItemes/DiscountedList";
+import SingleSizeList from "./Components/singleSize/SingleSizeList";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <TrendShoesList />
       <BestSellingsShoesList />
       <FeaturesList />
+      <DiscountedList />
+      <SingleSizeList />
     </div>
   );
 }
