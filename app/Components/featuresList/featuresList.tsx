@@ -45,7 +45,7 @@ function FeaturesList() {
         {data.map((slide, index) => (
           <div
             key={slide.id}
-            className={`absolute inset-0 transition-opacity duration-700 ${
+            className={`absolute inset-0 transition-opacity duration-700  ${
               index === current ? "opacity-100" : "opacity-0"
             }`}
           >
