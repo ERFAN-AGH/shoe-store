@@ -10,7 +10,6 @@ async function FeaturesItems({ params }: TFeatures) {
   if (!data) return <div>محصول پیدا نشد</div>;
   return (
     <div>
-      {" "}
       <Image
         src={data.image}
         alt="logo"

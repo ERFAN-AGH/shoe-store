@@ -91,7 +91,7 @@
       "image": "https://media.istockphoto.com/id/2201900733/tr/foto%C4%9Fraf/skilled-artisan-carefully-stitching-handcrafted-leather-loafers-on-vintage-sewing-machine.jpg?s=1024x1024&w=is&k=20&c=mijmlcIIZeI3Oavkf-VPpXRdSM7ZX1poJNV5AP7CFH8=",
       "title": "سایز سفارشی",
       "description": "  هر جا میری سایز پاتو پیدا نمیکنی؟ ما اینجا به فکر شما هستیم",
-      "feature": "CustomSize"
+      "feature": "customSize"
     }
   ],
   "category": [
@@ -119,7 +119,7 @@
     },
     {
       "id": "3",
-      "title": "کفش های ورزشی",
+      "title": "کفش های مجلسی",
       "subtitle": "مردانه",
       "image": "https://media.istockphoto.com/id/1061448006/tr/foto%C4%9Fraf/i%C5%9Fadam%C4%B1-giyim-ayakkab%C4%B1-i%C5%9F-i%C3%A7in-haz%C4%B1r-ba%C5%9Flarken-adam-sabah-d%C3%BC%C4%9F%C3%BCn-t%C3%B6reni-olmadan-damat.jpg?s=1024x1024&w=is&k=20&c=Q_LGjpPwxiR-6QfLXeuH9VGIpLK5rMoQj4cCcIyXokA=",
       "href": "/category/sportShoes",
@@ -149,6 +149,48 @@
       "rowSpan": 2,
       "colStart": 11,
       "rowStart": 1
+    }
+  ],
+  "homeBanner": [
+    {
+      "id": "1",
+      "title": "وقار و استایل با هر قدم",
+      "subtitle": "کفش مجلسی انتخاب شما",
+      "image": "https://images.unsplash.com/photo-1616406432452-07bc5938759d?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": "2",
+      "title": "راحتی درسبک روزمره",
+      "subtitle": "کفش اسپرت مناسب هر لحظه",
+      "image": "https://media.istockphoto.com/id/1145677347/tr/foto%C4%9Fraf/gen%C3%A7-adam-ba%C4%9Flama-ayakkab%C4%B1-ba%C4%9F%C4%B1.jpg?s=1024x1024&w=is&k=20&c=7eQvkubl5gi2e_7AKwR1K2dgHUx9y4WsWSEPUb8qUII="
+    },
+    {
+      "id": "3",
+      "title": "زیبایی در جزئیات",
+      "subtitle": "ویژه بانوان خاص پسند",
+      "image": "https://media.istockphoto.com/id/826358868/tr/foto%C4%9Fraf/siyah-arka-plan-%C3%BCzerine-kad%C4%B1n-kahverengi-ayakkab%C4%B1.jpg?s=1024x1024&w=is&k=20&c=AvkRlHsd4cCaEz7qnHnHi6e1hK5V3M5UWIxmqiPJc3w="
+    },
+    {
+      "id": "4",
+      "title": "انرژی در حرکت",
+      "subtitle": "کفش ورزشی همراه همیشگی",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ],
+  "homeBannerLink": [
+    {
+      "id": "1",
+      "title": " کفش زمستانه ",
+      "subtitle": "  مردانه وزنانه",
+      "image": "https://images.unsplash.com/photo-1520718458542-6208153eb61a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "href": "/category/winterShoes"
+    },
+    {
+      "id": "2",
+      "title": "کفش تابستانه",
+      "subtitle": " مردانه و زنانه  ",
+      "image": "https://images.unsplash.com/photo-1513654233834-19416b6eed13?q=80&w=958&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "href": "/category/summerShoes"
     }
   ]
 }
