@@ -1,15 +1,14 @@
-import Link from "next/link";
 import db from "../../../data/db.json";
 import { ProduvtType } from "../../Type/Type";
-import BestSellingsShoesSlider from "./BestSellingsShoesSlider";
 import SectionHeader from "../sectionHeader/SectionHeader";
+import ShoesSection from "../shoesSection/ShoesSection";
 
 function BestSellingsShoesList() {
-  const data = db.NewShoe as ProduvtType[];
+  const data = db.bestSellingsShoesList as ProduvtType[];
   return (
     <div>
       <SectionHeader href="/bestSellingsShoes" title="کفش های پرفروش" />
-      <BestSellingsShoesSlider items={data} />
+      <ShoesSection product={data} />
     </div>
   );
 }

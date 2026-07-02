@@ -1,8 +1,8 @@
-import { ProduvtType } from "@/app/Type/Type";
 import Image from "next/image";
+import { ProductType } from "@/app/Type/Type";
 import Button from "../button/Button";
 
-function SingleSizeCart({ image, title, views }: ProduvtType) {
+function ShoesSectionCard({ image, title, views }: ProductType) {
   return (
     <div>
       <div className="bg-emerald-100 my-3 rounded-2xl w-44 h-64 flex flex-col justify-center items-center">
@@ -17,7 +17,7 @@ function SingleSizeCart({ image, title, views }: ProduvtType) {
         </div>
 
         <h4 className="">{title}</h4>
-        <p>ُshoeNaik</p>
+
         <p>{views}</p>
         <Button variant="success">مشاهده جزئیات</Button>
       </div>
@@ -25,4 +25,4 @@ function SingleSizeCart({ image, title, views }: ProduvtType) {
   );
 }
 
-export default SingleSizeCart;
+export default ShoesSectionCard;

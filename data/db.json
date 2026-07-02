@@ -5,70 +5,408 @@
       "title": "Part1",
       "views": 100,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_gUj2zLtIi5zx7IzcF-DC_wBkEXJvvNrMeG05zkSE1Q&s=10",
-      "category": "sandalsShoes"
+      "category": "sandalsShoes",
+      "href": "/newShoes/"
     },
     {
       "id": "2",
       "title": "Part2",
       "views": 200,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHkJtONMtgxIT4h5AzbZtakwPNhhltZhSiaM6nr7zKqQ&s=10",
-      "category": "sandalsShoes"
+      "category": "sandalsShoes",
+      "href": "/newShoes/"
     },
     {
       "id": "3",
       "title": "Part3",
       "views": 100,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlNLCSZAzDaoGNcWZsggtrbHgANej4fPL7_lhkNwA_YQ&s=10",
-      "category": "kidsShoes"
+      "category": "kidsShoes",
+      "href": "/newShoes/"
     },
     {
       "id": "4",
       "title": "Part4",
       "views": 200,
       "category": "kidsShoes",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyiflaFAkN0k34Rr_jUYYLrezi-ByMLgJfQSqDXYEsg&s=10"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyiflaFAkN0k34Rr_jUYYLrezi-ByMLgJfQSqDXYEsg&s=10",
+      "href": "/newShoes/"
     },
     {
       "id": "5",
       "title": "Part5",
       "views": 100,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT52hyFGqvf9Qa8eWPWx7lAkDxj_VdZ42oW--JzXd8zOQ&s=10",
-      "category": "sportShoes"
+      "category": "sportShoes",
+      "href": "/newShoes/"
     },
     {
       "id": "6",
       "title": "Part6",
       "views": 200,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS9EZIlUS1G0Fl45lWOx9bUPM7O_t-66tT4FbozNQxIg&s=10",
-      "category": "sportShoes"
+      "category": "sportShoes",
+      "href": "/newShoes/"
     },
     {
       "id": "7",
       "title": "Part7",
       "views": 100,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoWduAR-jAGKhLf_-z9vei0qaXR7QSg-xxOwQO6E6R0w&s=10",
-      "category": "manShoes"
+      "category": "manShoes",
+      "href": "/newShoes/"
     },
     {
       "id": "8",
       "title": "Part7",
       "views": 200,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6aCc-6T5RKHJF0nRTn_UK2RnvMwAWC4yrZYnvL6wbPg&s=10",
-      "category": "manShoes"
+      "category": "manShoes",
+      "href": "/newShoes/"
     },
     {
       "id": "9",
       "title": "Part8",
       "views": 100,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWLqEbCAGJpstFR4j6gRRmwATZHzefaFiyYoW8qlSdHA&s",
-      "category": "wemanShoes"
+      "category": "wemanShoes",
+      "href": "/newShoes/"
     },
     {
       "id": "10",
       "title": "Part9",
       "views": 200,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7hnlQsl-Ov8seBgE2QVHHegzsQMQyEIHtgFCMNQ0LyA&s=10",
-      "category": "wemanShoes"
+      "category": "wemanShoes",
+      "href": "/newShoes/"
+    }
+  ],
+  "trendShoes": [
+    {
+      "id": "1",
+      "title": "Part1",
+      "views": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_gUj2zLtIi5zx7IzcF-DC_wBkEXJvvNrMeG05zkSE1Q&s=10",
+      "category": "sandalsShoes",
+      "href": "/trendShoes/"
+    },
+    {
+      "id": "2",
+      "title": "Part2",
+      "views": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHkJtONMtgxIT4h5AzbZtakwPNhhltZhSiaM6nr7zKqQ&s=10",
+      "category": "sandalsShoes",
+      "href": "/trendShoes/"
+    },
+    {
+      "id": "3",
+      "title": "Part3",
+      "views": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlNLCSZAzDaoGNcWZsggtrbHgANej4fPL7_lhkNwA_YQ&s=10",
+      "category": "kidsShoes",
+      "href": "/trendShoes/"
+    },
+    {
+      "id": "4",
+      "title": "Part4",
+      "views": 200,
+      "category": "kidsShoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyiflaFAkN0k34Rr_jUYYLrezi-ByMLgJfQSqDXYEsg&s=10",
+      "href": "/trendShoes/"
+    },
+    {
+      "id": "5",
+      "title": "Part5",
+      "views": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT52hyFGqvf9Qa8eWPWx7lAkDxj_VdZ42oW--JzXd8zOQ&s=10",
+      "category": "sportShoes",
+      "href": "/trendShoes/"
+    },
+    {
+      "id": "6",
+      "title": "Part6",
+      "views": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS9EZIlUS1G0Fl45lWOx9bUPM7O_t-66tT4FbozNQxIg&s=10",
+      "category": "sportShoes",
+      "href": "/trendShoes/"
+    },
+    {
+      "id": "7",
+      "title": "Part7",
+      "views": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoWduAR-jAGKhLf_-z9vei0qaXR7QSg-xxOwQO6E6R0w&s=10",
+      "category": "manShoes",
+      "href": "/trendShoes/"
+    },
+    {
+      "id": "8",
+      "title": "Part7",
+      "views": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6aCc-6T5RKHJF0nRTn_UK2RnvMwAWC4yrZYnvL6wbPg&s=10",
+      "category": "manShoes",
+      "href": "/trendShoes/"
+    },
+    {
+      "id": "9",
+      "title": "Part8",
+      "views": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWLqEbCAGJpstFR4j6gRRmwATZHzefaFiyYoW8qlSdHA&s",
+      "category": "wemanShoes",
+      "href": "/trendShoes/"
+    },
+    {
+      "id": "10",
+      "title": "Part9",
+      "views": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7hnlQsl-Ov8seBgE2QVHHegzsQMQyEIHtgFCMNQ0LyA&s=10",
+      "category": "wemanShoes",
+      "href": "/trendShoes/"
+    }
+  ],
+  "bestSellingsShoesList": [
+    {
+      "id": "1",
+      "title": "Part1",
+      "views": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_gUj2zLtIi5zx7IzcF-DC_wBkEXJvvNrMeG05zkSE1Q&s=10",
+      "category": "sandalsShoes",
+      "href": "/bestSellingsShoes/"
+    },
+    {
+      "id": "2",
+      "title": "Part2",
+      "views": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHkJtONMtgxIT4h5AzbZtakwPNhhltZhSiaM6nr7zKqQ&s=10",
+      "category": "sandalsShoes",
+      "href": "/bestSellingsShoes/"
+    },
+    {
+      "id": "3",
+      "title": "Part3",
+      "views": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlNLCSZAzDaoGNcWZsggtrbHgANej4fPL7_lhkNwA_YQ&s=10",
+      "category": "kidsShoes",
+      "href": "/bestSellingsShoes/"
+    },
+    {
+      "id": "4",
+      "title": "Part4",
+      "views": 200,
+      "category": "kidsShoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyiflaFAkN0k34Rr_jUYYLrezi-ByMLgJfQSqDXYEsg&s=10",
+      "href": "/bestSellingsShoes/"
+    },
+    {
+      "id": "5",
+      "title": "Part5",
+      "views": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT52hyFGqvf9Qa8eWPWx7lAkDxj_VdZ42oW--JzXd8zOQ&s=10",
+      "category": "sportShoes",
+      "href": "/bestSellingsShoes/"
+    },
+    {
+      "id": "6",
+      "title": "Part6",
+      "views": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS9EZIlUS1G0Fl45lWOx9bUPM7O_t-66tT4FbozNQxIg&s=10",
+      "category": "sportShoes",
+      "href": "/bestSellingsShoes/"
+    },
+    {
+      "id": "7",
+      "title": "Part7",
+      "views": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoWduAR-jAGKhLf_-z9vei0qaXR7QSg-xxOwQO6E6R0w&s=10",
+      "category": "manShoes",
+      "href": "/bestSellingsShoes/"
+    },
+    {
+      "id": "8",
+      "title": "Part7",
+      "views": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6aCc-6T5RKHJF0nRTn_UK2RnvMwAWC4yrZYnvL6wbPg&s=10",
+      "category": "manShoes",
+      "href": "/bestSellingsShoes/"
+    },
+    {
+      "id": "9",
+      "title": "Part8",
+      "views": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWLqEbCAGJpstFR4j6gRRmwATZHzefaFiyYoW8qlSdHA&s",
+      "category": "wemanShoes",
+      "href": "/bestSellingsShoes/"
+    },
+    {
+      "id": "10",
+      "title": "Part9",
+      "views": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7hnlQsl-Ov8seBgE2QVHHegzsQMQyEIHtgFCMNQ0LyA&s=10",
+      "category": "wemanShoes",
+      "href": "/bestSellingsShoes/"
+    }
+  ],
+  "discountedList": [
+    {
+      "id": "1",
+      "title": "Part1",
+      "views": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_gUj2zLtIi5zx7IzcF-DC_wBkEXJvvNrMeG05zkSE1Q&s=10",
+      "category": "sandalsShoes",
+      "href": "/descount/"
+    },
+    {
+      "id": "2",
+      "title": "Part2",
+      "views": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHkJtONMtgxIT4h5AzbZtakwPNhhltZhSiaM6nr7zKqQ&s=10",
+      "category": "sandalsShoes",
+      "href": "/descount/"
+    },
+    {
+      "id": "3",
+      "title": "Part3",
+      "views": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlNLCSZAzDaoGNcWZsggtrbHgANej4fPL7_lhkNwA_YQ&s=10",
+      "category": "kidsShoes",
+      "href": "/descount/"
+    },
+    {
+      "id": "4",
+      "title": "Part4",
+      "views": 200,
+      "category": "kidsShoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyiflaFAkN0k34Rr_jUYYLrezi-ByMLgJfQSqDXYEsg&s=10",
+      "href": "/descount/"
+    },
+    {
+      "id": "5",
+      "title": "Part5",
+      "views": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT52hyFGqvf9Qa8eWPWx7lAkDxj_VdZ42oW--JzXd8zOQ&s=10",
+      "category": "sportShoes",
+      "href": "/descount/"
+    },
+    {
+      "id": "6",
+      "title": "Part6",
+      "views": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS9EZIlUS1G0Fl45lWOx9bUPM7O_t-66tT4FbozNQxIg&s=10",
+      "category": "sportShoes",
+      "href": "/descount/"
+    },
+    {
+      "id": "7",
+      "title": "Part7",
+      "views": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoWduAR-jAGKhLf_-z9vei0qaXR7QSg-xxOwQO6E6R0w&s=10",
+      "category": "manShoes",
+      "href": "/descount/"
+    },
+    {
+      "id": "8",
+      "title": "Part7",
+      "views": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6aCc-6T5RKHJF0nRTn_UK2RnvMwAWC4yrZYnvL6wbPg&s=10",
+      "category": "manShoes",
+      "href": "/descount/"
+    },
+    {
+      "id": "9",
+      "title": "Part8",
+      "views": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWLqEbCAGJpstFR4j6gRRmwATZHzefaFiyYoW8qlSdHA&s",
+      "category": "wemanShoes",
+      "href": "/descount/"
+    },
+    {
+      "id": "10",
+      "title": "Part9",
+      "views": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7hnlQsl-Ov8seBgE2QVHHegzsQMQyEIHtgFCMNQ0LyA&s=10",
+      "category": "wemanShoes",
+      "href": "/descount/"
+    }
+  ],
+  "singleSizeList": [
+    {
+      "id": "1",
+      "title": "Part1",
+      "views": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_gUj2zLtIi5zx7IzcF-DC_wBkEXJvvNrMeG05zkSE1Q&s=10",
+      "category": "sandalsShoes",
+      "href": "/singleSize/"
+    },
+    {
+      "id": "2",
+      "title": "Part2",
+      "views": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHkJtONMtgxIT4h5AzbZtakwPNhhltZhSiaM6nr7zKqQ&s=10",
+      "category": "sandalsShoes",
+      "href": "/singleSize/"
+    },
+    {
+      "id": "3",
+      "title": "Part3",
+      "views": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlNLCSZAzDaoGNcWZsggtrbHgANej4fPL7_lhkNwA_YQ&s=10",
+      "category": "kidsShoes",
+      "href": "/singleSize/"
+    },
+    {
+      "id": "4",
+      "title": "Part4",
+      "views": 200,
+      "category": "kidsShoes",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyiflaFAkN0k34Rr_jUYYLrezi-ByMLgJfQSqDXYEsg&s=10",
+      "href": "/singleSize/"
+    },
+    {
+      "id": "5",
+      "title": "Part5",
+      "views": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT52hyFGqvf9Qa8eWPWx7lAkDxj_VdZ42oW--JzXd8zOQ&s=10",
+      "category": "sportShoes",
+      "href": "/singleSize/"
+    },
+    {
+      "id": "6",
+      "title": "Part6",
+      "views": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS9EZIlUS1G0Fl45lWOx9bUPM7O_t-66tT4FbozNQxIg&s=10",
+      "category": "sportShoes",
+      "href": "/singleSize/"
+    },
+    {
+      "id": "7",
+      "title": "Part7",
+      "views": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoWduAR-jAGKhLf_-z9vei0qaXR7QSg-xxOwQO6E6R0w&s=10",
+      "category": "manShoes",
+      "href": "/singleSize/"
+    },
+    {
+      "id": "8",
+      "title": "Part7",
+      "views": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6aCc-6T5RKHJF0nRTn_UK2RnvMwAWC4yrZYnvL6wbPg&s=10",
+      "category": "manShoes",
+      "href": "/singleSize/"
+    },
+    {
+      "id": "9",
+      "title": "Part8",
+      "views": 100,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWLqEbCAGJpstFR4j6gRRmwATZHzefaFiyYoW8qlSdHA&s",
+      "category": "wemanShoes",
+      "href": "/singleSize/"
+    },
+    {
+      "id": "10",
+      "title": "Part9",
+      "views": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7hnlQsl-Ov8seBgE2QVHHegzsQMQyEIHtgFCMNQ0LyA&s=10",
+      "category": "wemanShoes",
+      "href": "/singleSize/"
     }
   ],
   "heroBanner": [

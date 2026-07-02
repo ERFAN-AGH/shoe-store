@@ -2,32 +2,34 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-
-import { ProduvtType } from "../../Type/Type";
-import DiscountedCard from "./DiscountedCard";
+import { ProductType } from "../../Type/Type";
+import ShoesSectionCard from "./ShoesSectionCard";
 
 interface SliderProps {
-  items: ProduvtType[];
+  product: ProductType[];
 }
-export default function DiscountedSlider({ items }: SliderProps) {
+export default function ShoesSection({ product }: SliderProps) {
   const [current, setCurrent] = useState(0);
   const visibleCount = 5;
 
   useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % (items.length - visibleCount + 1));
-    }, 3000);
-    return () => clearInterval(timer);
-  }, []);
+    if (product.length <= visibleCount) return;
 
-  const visibleItems = items.slice(current, current + visibleCount);
+    const timer = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % (product.length - visibleCount + 1));
+    }, 3000);
+
+    return () => clearInterval(timer);
+  }, [product.length]);
+
+  const visibleItems = product.slice(current, current + visibleCount);
 
   return (
     <div className="w-full px-4 flex justify-center">
       <div className="grid grid-cols-5 gap-20  transition-all duration-500">
         {visibleItems.map((item) => (
-          <Link key={item.id} href={"/newShoes/" + item.id}>
-            <DiscountedCard {...item} />
+          <Link key={item.id} href={item.href + item.id}>
+            <ShoesSectionCard {...item} />
           </Link>
         ))}
       </div>
