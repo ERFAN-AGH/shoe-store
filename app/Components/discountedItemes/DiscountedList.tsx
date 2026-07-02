@@ -1,4 +1,4 @@
-import { ProduvtType } from "../../Type/Type";
+import { ProductType } from "../../Type/Type";
 
 import db from "../../../data/db.json";
 
@@ -6,7 +6,7 @@ import SectionHeader from "../sectionHeader/SectionHeader";
 import ShoesSection from "../shoesSection/ShoesSection";
 
 function DiscountedList() {
-  const data = db.discountedList as ProduvtType[];
+  const data = db.allShoes.filter((item) => item.isDiscounted) as ProductType[];
 
   return (
     <div className=" mt-5">

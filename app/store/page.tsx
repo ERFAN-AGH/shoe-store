@@ -1,7 +1,5 @@
-import React from "react";
-
-function store() {
+function Store() {
   return <div>Products</div>;
 }
 
-export default store;
+export default Store;

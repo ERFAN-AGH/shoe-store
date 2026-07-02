@@ -5,4 +5,9 @@ export interface ProductType {
   image: string;
   category: string;
   href: string;
+  isNew: boolean;
+  isTrendS: boolean;
+  isBestSelling: boolean;
+  isDiscounted: boolean;
+  isSingleSize: boolean;
 }

@@ -1,4 +1,4 @@
-import BannerGrid from "./Home/BannerGrid";
+import BannerGrid from "./Components/bannerGrid/BannerGrid";
 import TrendShoesList from "./Components/trendShoes/TrendShoesList";
 import NewShoesList from "./Components/NewShoes/NewShoesList";
 import BestSellingsShoesList from "./Components/bestSellingsShoes/BestSellingsShoesList";

@@ -1,12 +1,17 @@
 {
-  "NewShoe": [
+  "allShoes": [
     {
       "id": "1",
       "title": "Part1",
       "views": 100,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_gUj2zLtIi5zx7IzcF-DC_wBkEXJvvNrMeG05zkSE1Q&s=10",
       "category": "sandalsShoes",
-      "href": "/newShoes/"
+      "href": "/store/",
+      "isNew": true,
+      "isTrendS": false,
+      "isBestSelling": false,
+      "isDiscounted": false,
+      "isSingleSize": false
     },
     {
       "id": "2",
@@ -14,7 +19,12 @@
       "views": 200,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHkJtONMtgxIT4h5AzbZtakwPNhhltZhSiaM6nr7zKqQ&s=10",
       "category": "sandalsShoes",
-      "href": "/newShoes/"
+      "href": "/store/",
+      "isNew": true,
+      "isTrendS": false,
+      "isBestSelling": false,
+      "isDiscounted": false,
+      "isSingleSize": false
     },
     {
       "id": "3",
@@ -22,7 +32,12 @@
       "views": 100,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlNLCSZAzDaoGNcWZsggtrbHgANej4fPL7_lhkNwA_YQ&s=10",
       "category": "kidsShoes",
-      "href": "/newShoes/"
+      "href": "/store/",
+      "isNew": true,
+      "isTrendS": false,
+      "isBestSelling": false,
+      "isDiscounted": false,
+      "isSingleSize": false
     },
     {
       "id": "4",
@@ -30,7 +45,12 @@
       "views": 200,
       "category": "kidsShoes",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyiflaFAkN0k34Rr_jUYYLrezi-ByMLgJfQSqDXYEsg&s=10",
-      "href": "/newShoes/"
+      "href": "/store/",
+      "isNew": true,
+      "isTrendS": false,
+      "isBestSelling": false,
+      "isDiscounted": false,
+      "isSingleSize": false
     },
     {
       "id": "5",
@@ -38,7 +58,12 @@
       "views": 100,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT52hyFGqvf9Qa8eWPWx7lAkDxj_VdZ42oW--JzXd8zOQ&s=10",
       "category": "sportShoes",
-      "href": "/newShoes/"
+      "href": "/store/",
+      "isNew": true,
+      "isTrendS": false,
+      "isBestSelling": false,
+      "isDiscounted": false,
+      "isSingleSize": false
     },
     {
       "id": "6",
@@ -46,369 +71,329 @@
       "views": 200,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS9EZIlUS1G0Fl45lWOx9bUPM7O_t-66tT4FbozNQxIg&s=10",
       "category": "sportShoes",
-      "href": "/newShoes/"
+      "href": "/store/",
+      "isNew": true,
+      "isTrendS": false,
+      "isBestSelling": false,
+      "isDiscounted": false,
+      "isSingleSize": false
     },
     {
       "id": "7",
-      "title": "Part7",
+      "title": "Part1",
       "views": 100,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoWduAR-jAGKhLf_-z9vei0qaXR7QSg-xxOwQO6E6R0w&s=10",
       "category": "manShoes",
-      "href": "/newShoes/"
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": true,
+      "isBestSelling": false,
+      "isDiscounted": false,
+      "isSingleSize": false
     },
     {
       "id": "8",
-      "title": "Part7",
+      "title": "Part2",
       "views": 200,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6aCc-6T5RKHJF0nRTn_UK2RnvMwAWC4yrZYnvL6wbPg&s=10",
       "category": "manShoes",
-      "href": "/newShoes/"
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": true,
+      "isBestSelling": false,
+      "isDiscounted": false,
+      "isSingleSize": false
     },
     {
       "id": "9",
-      "title": "Part8",
+      "title": "Part3",
       "views": 100,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWLqEbCAGJpstFR4j6gRRmwATZHzefaFiyYoW8qlSdHA&s",
       "category": "wemanShoes",
-      "href": "/newShoes/"
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": true,
+      "isBestSelling": false,
+      "isDiscounted": false,
+      "isSingleSize": false
     },
     {
       "id": "10",
-      "title": "Part9",
+      "title": "Part4",
       "views": 200,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7hnlQsl-Ov8seBgE2QVHHegzsQMQyEIHtgFCMNQ0LyA&s=10",
       "category": "wemanShoes",
-      "href": "/newShoes/"
-    }
-  ],
-  "trendShoes": [
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": true,
+      "isBestSelling": false,
+      "isDiscounted": false,
+      "isSingleSize": false
+    },
     {
-      "id": "1",
+      "id": "11",
+      "title": "Part5",
+      "views": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7hnlQsl-Ov8seBgE2QVHHegzsQMQyEIHtgFCMNQ0LyA&s=10",
+      "category": "wemanShoes",
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": true,
+      "isBestSelling": false,
+      "isDiscounted": false,
+      "isSingleSize": false
+    },
+    {
+      "id": "12",
+      "title": "Part6",
+      "views": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7hnlQsl-Ov8seBgE2QVHHegzsQMQyEIHtgFCMNQ0LyA&s=10",
+      "category": "wemanShoes",
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": true,
+      "isBestSelling": false,
+      "isDiscounted": false,
+      "isSingleSize": false
+    },
+    {
+      "id": "13",
       "title": "Part1",
       "views": 100,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_gUj2zLtIi5zx7IzcF-DC_wBkEXJvvNrMeG05zkSE1Q&s=10",
       "category": "sandalsShoes",
-      "href": "/trendShoes/"
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": false,
+      "isBestSelling": true,
+      "isDiscounted": false,
+      "isSingleSize": false
     },
     {
-      "id": "2",
+      "id": "14",
       "title": "Part2",
       "views": 200,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHkJtONMtgxIT4h5AzbZtakwPNhhltZhSiaM6nr7zKqQ&s=10",
       "category": "sandalsShoes",
-      "href": "/trendShoes/"
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": false,
+      "isBestSelling": true,
+      "isDiscounted": false,
+      "isSingleSize": false
     },
     {
-      "id": "3",
+      "id": "15",
       "title": "Part3",
       "views": 100,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlNLCSZAzDaoGNcWZsggtrbHgANej4fPL7_lhkNwA_YQ&s=10",
       "category": "kidsShoes",
-      "href": "/trendShoes/"
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": false,
+      "isBestSelling": true,
+      "isDiscounted": false,
+      "isSingleSize": false
     },
     {
-      "id": "4",
+      "id": "16",
       "title": "Part4",
       "views": 200,
       "category": "kidsShoes",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyiflaFAkN0k34Rr_jUYYLrezi-ByMLgJfQSqDXYEsg&s=10",
-      "href": "/trendShoes/"
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": false,
+      "isBestSelling": true,
+      "isDiscounted": false,
+      "isSingleSize": false
     },
     {
-      "id": "5",
+      "id": "17",
       "title": "Part5",
       "views": 100,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT52hyFGqvf9Qa8eWPWx7lAkDxj_VdZ42oW--JzXd8zOQ&s=10",
       "category": "sportShoes",
-      "href": "/trendShoes/"
+      "href": "/store/",
+
+      "isNew": false,
+      "isTrendS": false,
+      "isBestSelling": true,
+      "isDiscounted": false,
+      "isSingleSize": false
     },
+
     {
-      "id": "6",
+      "id": "18",
       "title": "Part6",
       "views": 200,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS9EZIlUS1G0Fl45lWOx9bUPM7O_t-66tT4FbozNQxIg&s=10",
       "category": "sportShoes",
-      "href": "/trendShoes/"
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": false,
+      "isBestSelling": true,
+      "isDiscounted": false,
+      "isSingleSize": false
     },
     {
-      "id": "7",
-      "title": "Part7",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoWduAR-jAGKhLf_-z9vei0qaXR7QSg-xxOwQO6E6R0w&s=10",
-      "category": "manShoes",
-      "href": "/trendShoes/"
-    },
-    {
-      "id": "8",
-      "title": "Part7",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6aCc-6T5RKHJF0nRTn_UK2RnvMwAWC4yrZYnvL6wbPg&s=10",
-      "category": "manShoes",
-      "href": "/trendShoes/"
-    },
-    {
-      "id": "9",
-      "title": "Part8",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWLqEbCAGJpstFR4j6gRRmwATZHzefaFiyYoW8qlSdHA&s",
-      "category": "wemanShoes",
-      "href": "/trendShoes/"
-    },
-    {
-      "id": "10",
-      "title": "Part9",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7hnlQsl-Ov8seBgE2QVHHegzsQMQyEIHtgFCMNQ0LyA&s=10",
-      "category": "wemanShoes",
-      "href": "/trendShoes/"
-    }
-  ],
-  "bestSellingsShoesList": [
-    {
-      "id": "1",
+      "id": "19",
       "title": "Part1",
       "views": 100,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_gUj2zLtIi5zx7IzcF-DC_wBkEXJvvNrMeG05zkSE1Q&s=10",
       "category": "sandalsShoes",
-      "href": "/bestSellingsShoes/"
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": false,
+      "isBestSelling": false,
+      "isDiscounted": true,
+      "isSingleSize": false
     },
     {
-      "id": "2",
+      "id": "20",
       "title": "Part2",
       "views": 200,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHkJtONMtgxIT4h5AzbZtakwPNhhltZhSiaM6nr7zKqQ&s=10",
       "category": "sandalsShoes",
-      "href": "/bestSellingsShoes/"
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": false,
+      "isBestSelling": false,
+      "isDiscounted": true,
+      "isSingleSize": false
     },
     {
-      "id": "3",
+      "id": "21",
       "title": "Part3",
       "views": 100,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlNLCSZAzDaoGNcWZsggtrbHgANej4fPL7_lhkNwA_YQ&s=10",
       "category": "kidsShoes",
-      "href": "/bestSellingsShoes/"
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": false,
+      "isBestSelling": false,
+      "isDiscounted": true,
+      "isSingleSize": false
     },
     {
-      "id": "4",
+      "id": "22",
       "title": "Part4",
       "views": 200,
       "category": "kidsShoes",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyiflaFAkN0k34Rr_jUYYLrezi-ByMLgJfQSqDXYEsg&s=10",
-      "href": "/bestSellingsShoes/"
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": false,
+      "isBestSelling": false,
+      "isDiscounted": true,
+      "isSingleSize": false
     },
     {
-      "id": "5",
+      "id": "23",
       "title": "Part5",
       "views": 100,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT52hyFGqvf9Qa8eWPWx7lAkDxj_VdZ42oW--JzXd8zOQ&s=10",
       "category": "sportShoes",
-      "href": "/bestSellingsShoes/"
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": false,
+      "isBestSelling": false,
+      "isDiscounted": true,
+      "isSingleSize": false
     },
     {
-      "id": "6",
+      "id": "24",
       "title": "Part6",
       "views": 200,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS9EZIlUS1G0Fl45lWOx9bUPM7O_t-66tT4FbozNQxIg&s=10",
       "category": "sportShoes",
-      "href": "/bestSellingsShoes/"
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": false,
+      "isBestSelling": false,
+      "isDiscounted": true,
+      "isSingleSize": false
     },
     {
-      "id": "7",
-      "title": "Part7",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoWduAR-jAGKhLf_-z9vei0qaXR7QSg-xxOwQO6E6R0w&s=10",
-      "category": "manShoes",
-      "href": "/bestSellingsShoes/"
-    },
-    {
-      "id": "8",
-      "title": "Part7",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6aCc-6T5RKHJF0nRTn_UK2RnvMwAWC4yrZYnvL6wbPg&s=10",
-      "category": "manShoes",
-      "href": "/bestSellingsShoes/"
-    },
-    {
-      "id": "9",
-      "title": "Part8",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWLqEbCAGJpstFR4j6gRRmwATZHzefaFiyYoW8qlSdHA&s",
-      "category": "wemanShoes",
-      "href": "/bestSellingsShoes/"
-    },
-    {
-      "id": "10",
-      "title": "Part9",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7hnlQsl-Ov8seBgE2QVHHegzsQMQyEIHtgFCMNQ0LyA&s=10",
-      "category": "wemanShoes",
-      "href": "/bestSellingsShoes/"
-    }
-  ],
-  "discountedList": [
-    {
-      "id": "1",
+      "id": "25",
       "title": "Part1",
       "views": 100,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_gUj2zLtIi5zx7IzcF-DC_wBkEXJvvNrMeG05zkSE1Q&s=10",
       "category": "sandalsShoes",
-      "href": "/descount/"
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": false,
+      "isBestSelling": false,
+      "isDiscounted": false,
+      "isSingleSize": true
     },
     {
-      "id": "2",
+      "id": "26",
       "title": "Part2",
       "views": 200,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHkJtONMtgxIT4h5AzbZtakwPNhhltZhSiaM6nr7zKqQ&s=10",
       "category": "sandalsShoes",
-      "href": "/descount/"
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": false,
+      "isBestSelling": false,
+      "isDiscounted": false,
+      "isSingleSize": true
     },
     {
-      "id": "3",
+      "id": "27",
       "title": "Part3",
       "views": 100,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlNLCSZAzDaoGNcWZsggtrbHgANej4fPL7_lhkNwA_YQ&s=10",
       "category": "kidsShoes",
-      "href": "/descount/"
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": false,
+      "isBestSelling": false,
+      "isDiscounted": false,
+      "isSingleSize": true
     },
     {
-      "id": "4",
+      "id": "28",
       "title": "Part4",
       "views": 200,
       "category": "kidsShoes",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyiflaFAkN0k34Rr_jUYYLrezi-ByMLgJfQSqDXYEsg&s=10",
-      "href": "/descount/"
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": false,
+      "isBestSelling": false,
+      "isDiscounted": false,
+      "isSingleSize": true
     },
     {
-      "id": "5",
+      "id": "29",
       "title": "Part5",
       "views": 100,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT52hyFGqvf9Qa8eWPWx7lAkDxj_VdZ42oW--JzXd8zOQ&s=10",
       "category": "sportShoes",
-      "href": "/descount/"
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": false,
+      "isBestSelling": false,
+      "isDiscounted": false,
+      "isSingleSize": true
     },
     {
-      "id": "6",
+      "id": "30",
       "title": "Part6",
       "views": 200,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS9EZIlUS1G0Fl45lWOx9bUPM7O_t-66tT4FbozNQxIg&s=10",
       "category": "sportShoes",
-      "href": "/descount/"
-    },
-    {
-      "id": "7",
-      "title": "Part7",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoWduAR-jAGKhLf_-z9vei0qaXR7QSg-xxOwQO6E6R0w&s=10",
-      "category": "manShoes",
-      "href": "/descount/"
-    },
-    {
-      "id": "8",
-      "title": "Part7",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6aCc-6T5RKHJF0nRTn_UK2RnvMwAWC4yrZYnvL6wbPg&s=10",
-      "category": "manShoes",
-      "href": "/descount/"
-    },
-    {
-      "id": "9",
-      "title": "Part8",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWLqEbCAGJpstFR4j6gRRmwATZHzefaFiyYoW8qlSdHA&s",
-      "category": "wemanShoes",
-      "href": "/descount/"
-    },
-    {
-      "id": "10",
-      "title": "Part9",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7hnlQsl-Ov8seBgE2QVHHegzsQMQyEIHtgFCMNQ0LyA&s=10",
-      "category": "wemanShoes",
-      "href": "/descount/"
+      "href": "/store/",
+      "isNew": false,
+      "isTrendS": false,
+      "isBestSelling": false,
+      "isDiscounted": false,
+      "isSingleSize": true
     }
   ],
-  "singleSizeList": [
-    {
-      "id": "1",
-      "title": "Part1",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_gUj2zLtIi5zx7IzcF-DC_wBkEXJvvNrMeG05zkSE1Q&s=10",
-      "category": "sandalsShoes",
-      "href": "/singleSize/"
-    },
-    {
-      "id": "2",
-      "title": "Part2",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHkJtONMtgxIT4h5AzbZtakwPNhhltZhSiaM6nr7zKqQ&s=10",
-      "category": "sandalsShoes",
-      "href": "/singleSize/"
-    },
-    {
-      "id": "3",
-      "title": "Part3",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlNLCSZAzDaoGNcWZsggtrbHgANej4fPL7_lhkNwA_YQ&s=10",
-      "category": "kidsShoes",
-      "href": "/singleSize/"
-    },
-    {
-      "id": "4",
-      "title": "Part4",
-      "views": 200,
-      "category": "kidsShoes",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyiflaFAkN0k34Rr_jUYYLrezi-ByMLgJfQSqDXYEsg&s=10",
-      "href": "/singleSize/"
-    },
-    {
-      "id": "5",
-      "title": "Part5",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT52hyFGqvf9Qa8eWPWx7lAkDxj_VdZ42oW--JzXd8zOQ&s=10",
-      "category": "sportShoes",
-      "href": "/singleSize/"
-    },
-    {
-      "id": "6",
-      "title": "Part6",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS9EZIlUS1G0Fl45lWOx9bUPM7O_t-66tT4FbozNQxIg&s=10",
-      "category": "sportShoes",
-      "href": "/singleSize/"
-    },
-    {
-      "id": "7",
-      "title": "Part7",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoWduAR-jAGKhLf_-z9vei0qaXR7QSg-xxOwQO6E6R0w&s=10",
-      "category": "manShoes",
-      "href": "/singleSize/"
-    },
-    {
-      "id": "8",
-      "title": "Part7",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6aCc-6T5RKHJF0nRTn_UK2RnvMwAWC4yrZYnvL6wbPg&s=10",
-      "category": "manShoes",
-      "href": "/singleSize/"
-    },
-    {
-      "id": "9",
-      "title": "Part8",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWLqEbCAGJpstFR4j6gRRmwATZHzefaFiyYoW8qlSdHA&s",
-      "category": "wemanShoes",
-      "href": "/singleSize/"
-    },
-    {
-      "id": "10",
-      "title": "Part9",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7hnlQsl-Ov8seBgE2QVHHegzsQMQyEIHtgFCMNQ0LyA&s=10",
-      "category": "wemanShoes",
-      "href": "/singleSize/"
-    }
-  ],
+
   "heroBanner": [
     {
       "id": "1",
@@ -529,6 +514,80 @@
       "subtitle": " مردانه و زنانه  ",
       "image": "https://images.unsplash.com/photo-1513654233834-19416b6eed13?q=80&w=958&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "href": "/category/summerShoes"
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Jordan",
+      "logo": "/images/brands/jordan.png",
+      "href": "/brandShoes/jordan"
+    },
+    {
+      "id": 2,
+      "name": "Adidas",
+      "logo": "/images/brands/adidas.png",
+      "href": "/brandShoes/adidas"
+    },
+    {
+      "id": 3,
+      "name": "Nike",
+      "logo": "/images/brands/nike.png",
+      "href": "/brandShoes/nike"
+    },
+    {
+      "id": 4,
+      "name": "New Balance",
+      "logo": "/images/brands/new-balance.png",
+      "href": "/brandShoes/newBalance"
+    },
+    {
+      "id": 5,
+      "name": "Under Armour",
+      "logo": "/images/brands/under-armour.png",
+      "href": "/brandShoes/underArmour"
+    },
+    {
+      "id": 6,
+      "name": "Skechers",
+      "logo": "/images/brands/skechers.png",
+      "href": "/brandShoes/skechers"
+    },
+    {
+      "id": 7,
+      "name": "On Running",
+      "logo": "/images/brands/on-running.png",
+      "href": "/brandShoes/onRunning"
+    },
+    {
+      "id": 8,
+      "name": "Alexander McQueen",
+      "logo": "/images/brands/alexander-mcqueen.png",
+      "href": "/brandShoes/alexanderMcQueen"
+    },
+    {
+      "id": 9,
+      "name": "Columbia",
+      "logo": "/images/brands/columbia.png",
+      "href": "/brandShoes/columbia"
+    },
+    {
+      "id": 10,
+      "name": "Louis Vuitton",
+      "logo": "/images/brands/louis-vuitton.png",
+      "href": "/brandShoes/louisVuitton"
+    },
+    {
+      "id": 11,
+      "name": "Puma",
+      "logo": "/images/brands/puma.png",
+      "href": "/puma"
+    },
+    {
+      "id": 12,
+      "name": "Reebok",
+      "logo": "/images/brands/reebok.png",
+      "href": "/brandShoes/reebok"
     }
   ]
 }

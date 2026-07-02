@@ -1,5 +1,3 @@
-import React from "react";
-
 function ActionBar() {
   return (
     <div className="flex items-center gap-8 [&_svg]:w-5 [&_svg]:h-5 bg-white px-3 py-2 rounded ">

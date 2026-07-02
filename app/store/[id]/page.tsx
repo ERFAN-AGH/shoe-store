@@ -5,11 +5,10 @@ type ArticelProps = {
   params: Promise<{ id: string }>;
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 };
-async function SingleSizeId({ params }: ArticelProps) {
+async function StoreId({ params }: ArticelProps) {
   const { id } = await params;
-  const data = db.NewShoe.find((item) => item.id == id);
+  const data = db.allShoes.find((item) => item.id === id);
   if (!data) return <div>محصول پیدا نشد</div>;
-
   return (
     <div>
       <Image
@@ -25,4 +24,4 @@ async function SingleSizeId({ params }: ArticelProps) {
   );
 }
 
-export default SingleSizeId;
+export default StoreId;

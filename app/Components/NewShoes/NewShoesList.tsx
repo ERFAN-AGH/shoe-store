@@ -1,10 +1,10 @@
-import { ProduvtType } from "../../Type/Type";
+import { ProductType } from "../../Type/Type";
 import db from "../../../data/db.json";
 import SectionHeader from "../sectionHeader/SectionHeader";
 import ShoesSection from "../shoesSection/ShoesSection";
 
 function NewShoesList() {
-  const data = db.NewShoe as ProduvtType[];
+  const data = db.allShoes.filter((item) => item.isNew) as ProductType[];
 
   return (
     <div className=" mt-5">
