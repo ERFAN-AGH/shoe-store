@@ -4,7 +4,6 @@ import BrandListSlider from "./BrandListSlider";
 import SectionHeader from "../sectionHeader/SectionHeader";
 
 async function BrandList() {
-  // db.allShoes آرایه‌ی همه‌ی کفش‌هاست
   const uniqueBrands = Array.from(
     new Map(db.allShoes.map((item) => [item.name, item])).values(),
   ) as ProductType[];
