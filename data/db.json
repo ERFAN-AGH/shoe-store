@@ -11,7 +11,9 @@
       "isTrendS": false,
       "isBestSelling": false,
       "isDiscounted": false,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "Jordan",
+      "logo": "/images/brands/jordan.png"
     },
     {
       "id": "2",
@@ -24,7 +26,10 @@
       "isTrendS": false,
       "isBestSelling": false,
       "isDiscounted": false,
-      "isSingleSize": false
+      "isSingleSize": false,
+
+      "name": "Adidas",
+      "logo": "/images/brands/adidas.png"
     },
     {
       "id": "3",
@@ -37,7 +42,10 @@
       "isTrendS": false,
       "isBestSelling": false,
       "isDiscounted": false,
-      "isSingleSize": false
+      "isSingleSize": false,
+
+      "name": "Nike",
+      "logo": "/images/brands/nike.png"
     },
     {
       "id": "4",
@@ -50,7 +58,9 @@
       "isTrendS": false,
       "isBestSelling": false,
       "isDiscounted": false,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "New Balance",
+      "logo": "/images/brands/new-balance.png"
     },
     {
       "id": "5",
@@ -63,7 +73,9 @@
       "isTrendS": false,
       "isBestSelling": false,
       "isDiscounted": false,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "Under Armour",
+      "logo": "/images/brands/under-armour.png"
     },
     {
       "id": "6",
@@ -76,7 +88,9 @@
       "isTrendS": false,
       "isBestSelling": false,
       "isDiscounted": false,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "Skechers",
+      "logo": "/images/brands/skechers.png"
     },
     {
       "id": "7",
@@ -89,7 +103,9 @@
       "isTrendS": true,
       "isBestSelling": false,
       "isDiscounted": false,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "On Running",
+      "logo": "/images/brands/on-running.png"
     },
     {
       "id": "8",
@@ -102,7 +118,10 @@
       "isTrendS": true,
       "isBestSelling": false,
       "isDiscounted": false,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "Alexander McQueen",
+      "logo": "/images/brands/alexander-mcqueen.png",
+      "brands": "columbia"
     },
     {
       "id": "9",
@@ -115,7 +134,9 @@
       "isTrendS": true,
       "isBestSelling": false,
       "isDiscounted": false,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "Columbia",
+      "logo": "/images/brands/columbia.png"
     },
     {
       "id": "10",
@@ -128,7 +149,9 @@
       "isTrendS": true,
       "isBestSelling": false,
       "isDiscounted": false,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "Louis Vuitton",
+      "logo": "/images/brands/louis-vuitton.png"
     },
     {
       "id": "11",
@@ -141,7 +164,9 @@
       "isTrendS": true,
       "isBestSelling": false,
       "isDiscounted": false,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "Puma",
+      "logo": "/images/brands/puma.png"
     },
     {
       "id": "12",
@@ -154,7 +179,9 @@
       "isTrendS": true,
       "isBestSelling": false,
       "isDiscounted": false,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "Reebok",
+      "logo": "/images/brands/reebok.png"
     },
     {
       "id": "13",
@@ -167,7 +194,9 @@
       "isTrendS": false,
       "isBestSelling": true,
       "isDiscounted": false,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "Jordan",
+      "logo": "/images/brands/jordan.png"
     },
     {
       "id": "14",
@@ -180,7 +209,9 @@
       "isTrendS": false,
       "isBestSelling": true,
       "isDiscounted": false,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "Jordan",
+      "logo": "/images/brands/jordan.png"
     },
     {
       "id": "15",
@@ -193,7 +224,9 @@
       "isTrendS": false,
       "isBestSelling": true,
       "isDiscounted": false,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "Jordan",
+      "logo": "/images/brands/jordan.png"
     },
     {
       "id": "16",
@@ -206,7 +239,9 @@
       "isTrendS": false,
       "isBestSelling": true,
       "isDiscounted": false,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "Jordan",
+      "logo": "/images/brands/jordan.png"
     },
     {
       "id": "17",
@@ -220,7 +255,9 @@
       "isTrendS": false,
       "isBestSelling": true,
       "isDiscounted": false,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "Jordan",
+      "logo": "/images/brands/jordan.png"
     },
 
     {
@@ -234,7 +271,9 @@
       "isTrendS": false,
       "isBestSelling": true,
       "isDiscounted": false,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "Jordan",
+      "logo": "/images/brands/jordan.png"
     },
     {
       "id": "19",
@@ -247,7 +286,9 @@
       "isTrendS": false,
       "isBestSelling": false,
       "isDiscounted": true,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "Jordan",
+      "logo": "/images/brands/jordan.png"
     },
     {
       "id": "20",
@@ -260,7 +301,9 @@
       "isTrendS": false,
       "isBestSelling": false,
       "isDiscounted": true,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "Jordan",
+      "logo": "/images/brands/jordan.png"
     },
     {
       "id": "21",
@@ -273,7 +316,9 @@
       "isTrendS": false,
       "isBestSelling": false,
       "isDiscounted": true,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "Jordan",
+      "logo": "/images/brands/jordan.png"
     },
     {
       "id": "22",
@@ -286,7 +331,9 @@
       "isTrendS": false,
       "isBestSelling": false,
       "isDiscounted": true,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "Jordan",
+      "logo": "/images/brands/jordan.png"
     },
     {
       "id": "23",
@@ -299,7 +346,9 @@
       "isTrendS": false,
       "isBestSelling": false,
       "isDiscounted": true,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "Jordan",
+      "logo": "/images/brands/jordan.png"
     },
     {
       "id": "24",
@@ -312,7 +361,9 @@
       "isTrendS": false,
       "isBestSelling": false,
       "isDiscounted": true,
-      "isSingleSize": false
+      "isSingleSize": false,
+      "name": "Jordan",
+      "logo": "/images/brands/jordan.png"
     },
     {
       "id": "25",
@@ -325,7 +376,9 @@
       "isTrendS": false,
       "isBestSelling": false,
       "isDiscounted": false,
-      "isSingleSize": true
+      "isSingleSize": true,
+      "name": "Jordan",
+      "logo": "/images/brands/jordan.png"
     },
     {
       "id": "26",
@@ -338,7 +391,9 @@
       "isTrendS": false,
       "isBestSelling": false,
       "isDiscounted": false,
-      "isSingleSize": true
+      "isSingleSize": true,
+      "name": "Jordan",
+      "logo": "/images/brands/jordan.png"
     },
     {
       "id": "27",
@@ -351,7 +406,9 @@
       "isTrendS": false,
       "isBestSelling": false,
       "isDiscounted": false,
-      "isSingleSize": true
+      "isSingleSize": true,
+      "name": "Jordan",
+      "logo": "/images/brands/jordan.png"
     },
     {
       "id": "28",
@@ -364,7 +421,9 @@
       "isTrendS": false,
       "isBestSelling": false,
       "isDiscounted": false,
-      "isSingleSize": true
+      "isSingleSize": true,
+      "name": "Jordan",
+      "logo": "/images/brands/jordan.png"
     },
     {
       "id": "29",
@@ -377,7 +436,9 @@
       "isTrendS": false,
       "isBestSelling": false,
       "isDiscounted": false,
-      "isSingleSize": true
+      "isSingleSize": true,
+      "name": "Jordan",
+      "logo": "/images/brands/jordan.png"
     },
     {
       "id": "30",
@@ -390,7 +451,9 @@
       "isTrendS": false,
       "isBestSelling": false,
       "isDiscounted": false,
-      "isSingleSize": true
+      "isSingleSize": true,
+      "name": "Jordan",
+      "logo": "/images/brands/jordan.png"
     }
   ],
 
@@ -514,80 +577,6 @@
       "subtitle": " مردانه و زنانه  ",
       "image": "https://images.unsplash.com/photo-1513654233834-19416b6eed13?q=80&w=958&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "href": "/category/summerShoes"
-    }
-  ],
-  "brands": [
-    {
-      "id": 1,
-      "name": "Jordan",
-      "logo": "/images/brands/jordan.png",
-      "href": "/brandShoes/jordan"
-    },
-    {
-      "id": 2,
-      "name": "Adidas",
-      "logo": "/images/brands/adidas.png",
-      "href": "/brandShoes/adidas"
-    },
-    {
-      "id": 3,
-      "name": "Nike",
-      "logo": "/images/brands/nike.png",
-      "href": "/brandShoes/nike"
-    },
-    {
-      "id": 4,
-      "name": "New Balance",
-      "logo": "/images/brands/new-balance.png",
-      "href": "/brandShoes/newBalance"
-    },
-    {
-      "id": 5,
-      "name": "Under Armour",
-      "logo": "/images/brands/under-armour.png",
-      "href": "/brandShoes/underArmour"
-    },
-    {
-      "id": 6,
-      "name": "Skechers",
-      "logo": "/images/brands/skechers.png",
-      "href": "/brandShoes/skechers"
-    },
-    {
-      "id": 7,
-      "name": "On Running",
-      "logo": "/images/brands/on-running.png",
-      "href": "/brandShoes/onRunning"
-    },
-    {
-      "id": 8,
-      "name": "Alexander McQueen",
-      "logo": "/images/brands/alexander-mcqueen.png",
-      "href": "/brandShoes/alexanderMcQueen"
-    },
-    {
-      "id": 9,
-      "name": "Columbia",
-      "logo": "/images/brands/columbia.png",
-      "href": "/brandShoes/columbia"
-    },
-    {
-      "id": 10,
-      "name": "Louis Vuitton",
-      "logo": "/images/brands/louis-vuitton.png",
-      "href": "/brandShoes/louisVuitton"
-    },
-    {
-      "id": 11,
-      "name": "Puma",
-      "logo": "/images/brands/puma.png",
-      "href": "/puma"
-    },
-    {
-      "id": 12,
-      "name": "Reebok",
-      "logo": "/images/brands/reebok.png",
-      "href": "/brandShoes/reebok"
     }
   ]
 }

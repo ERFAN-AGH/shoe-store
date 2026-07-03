@@ -10,4 +10,7 @@ export interface ProductType {
   isBestSelling: boolean;
   isDiscounted: boolean;
   isSingleSize: boolean;
+  brands: string;
+  name: string;
+  logo: string;
 }

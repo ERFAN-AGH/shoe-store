@@ -8,7 +8,7 @@ type CategoryPageProps = {
 async function CategoryPage({ params }: CategoryPageProps) {
   const { slug } = await params;
 
-  const shoes = db.NewShoe.filter((item) => item.category === slug);
+  const shoes = db.allShoes.filter((item) => item.category === slug);
 
   if (shoes.length === 0) return <div>محصولی پیدا نشد</div>;
 
