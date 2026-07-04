@@ -11,7 +11,6 @@ function Store() {
       <div className="col-span-4">
         <Filter />
       </div>
-
       <Scroll />
     </div>
   );
