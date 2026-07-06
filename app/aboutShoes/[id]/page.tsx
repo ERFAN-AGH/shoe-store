@@ -1,5 +1,5 @@
 function AboutShoes() {
-  return <div>aboutShoes</div>;
+  return <div>AboutShoes</div>;
 }
 
 export default AboutShoes;

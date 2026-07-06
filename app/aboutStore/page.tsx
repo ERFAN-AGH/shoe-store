@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function AboutStore() {
   return (
-    <div className=" grid grid-cols-1 gap-6 max-w-2xl  mx-auto shadow-2xl my-5 p-5 rounded-2xl">
+    <div className="  max-w-4xl  mx-auto shadow-2xl my-5 p-5 rounded-2xl">
       <div className="flex justify-center ">
         <div className="relative w-full h-64">
           <Image

@@ -15,13 +15,9 @@ function NavList() {
       href: "/store",
       id: 2,
     },
+
     {
-      title: "ویدوها ",
-      href: "/videos",
-      id: 3,
-    },
-    {
-      title: " درباره کفش ها ",
+      title: " دانستنی های کفش  ",
       href: "/aboutShoes",
       id: 4,
     },

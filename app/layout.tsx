@@ -6,6 +6,7 @@ import TopBar from "./../public/images/TopBar/TopBar.jpg";
 import Image from "next/image";
 import localFont from "next/font/local";
 import Footer from "./Components/footer/Footer";
+import Scroll from "./Components/scroll/Scroll";
 
 const vazir = localFont({
   src: [
@@ -53,6 +54,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <Scroll />
       </body>
     </html>
   );
