@@ -14,3 +14,20 @@ export interface ProductType {
   name: string;
   logo: string;
 }
+export interface TopBarLinkType {
+  id: string;
+  title: string;
+  href: string;
+  icon: string;
+}
+
+export interface TopBarInfoItemType {
+  id: string;
+  title: string;
+  icon: string;
+}
+export interface TIcon {
+  path: string;
+  className?: string;
+  size: number;
+}

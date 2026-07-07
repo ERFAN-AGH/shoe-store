@@ -5,7 +5,7 @@ import Button from "../button/Button";
 function ShoesSectionCard({ image, title, views }: ProductType) {
   return (
     <div>
-      <div className="bg-emerald-100 shadow-md my-3 rounded-2xl w-44 h-64 flex flex-col justify-center items-center">
+      <div className="bg-gray-50 shadow my-3 rounded-2xl w-44 h-64 flex flex-col justify-center items-center">
         <div className=" rounded-2xl">
           <Image
             src={image}

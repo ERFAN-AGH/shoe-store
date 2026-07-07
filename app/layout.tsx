@@ -2,11 +2,10 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Components/Header/Navbar";
-import TopBar from "./../public/images/TopBar/TopBar.jpg";
-import Image from "next/image";
 import localFont from "next/font/local";
 import Footer from "./Components/footer/Footer";
 import Scroll from "./Components/scroll/Scroll";
+import TopBar from "./Components/topBar/TopBar";
 
 const vazir = localFont({
   src: [
@@ -50,7 +49,7 @@ export default function RootLayout({
         className="min-h-full flex flex-col"
         style={{ fontFamily: "var(--font-vazir)" }}
       >
-        <Image src={TopBar} alt="TopBar" className="" />
+        <TopBar />
         <Navbar />
         {children}
         <Footer />
