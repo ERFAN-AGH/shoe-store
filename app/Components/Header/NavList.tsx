@@ -1,49 +1,25 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import db from "@/data/db.json";
+import { navBarlinkList } from "@/app/Type/Type";
 
 function NavList() {
-  const Pathname = usePathname();
-  const NavList = [
-    {
-      title: "کفش  استور",
-      href: "/",
-      id: 1,
-    },
-    {
-      title: "محصولات ",
-      href: "/store",
-      id: 2,
-    },
-
-    {
-      title: " دانستنی های کفش  ",
-      href: "/aboutShoes",
-      id: 4,
-    },
-    {
-      title: "  درباره فروشگاه ",
-      href: "/aboutStore",
-      id: 5,
-    },
-    {
-      title: "ارتباط با ما ",
-      href: "/contactUs",
-      id: 6,
-    },
-  ];
+  const navLinks = db.navBarLinkList as navBarlinkList[];
+  const pathname = usePathname();
   return (
-    <div className="">
+    <div>
       <ul>
-        <li>
-          {NavList.map((item) => (
+        <li className="flex gap-3 items-center">
+          {navLinks.map((item) => (
             <Link
               href={item.href}
               key={item.id}
-              className={item.href === Pathname ? "text-sky-400" : "text-black"}
-              style={{ marginRight: "15px" }}
+              className={
+                item.href === pathname ? "text-[#8dcb8f]" : "text-[#374151]"
+              }
             >
-              {item.title}
+              <span className=" hover:text-[#2E7D32]">{item.title}</span>
             </Link>
           ))}
         </li>

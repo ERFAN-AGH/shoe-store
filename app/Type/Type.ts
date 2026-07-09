@@ -1,18 +1,9 @@
 export interface ProductType {
   id: string;
-  title: string;
-  views: number;
   image: string;
-  category: string;
   href: string;
-  isNew: boolean;
-  isTrendS: boolean;
-  isBestSelling: boolean;
-  isDiscounted: boolean;
-  isSingleSize: boolean;
-  brands: string;
-  name: string;
-  logo: string;
+  title: string;
+  category: string;
 }
 export interface TopBarLinkType {
   id: string;
@@ -21,13 +12,19 @@ export interface TopBarLinkType {
   icon: string;
 }
 
-export interface TopBarInfoItemType {
-  id: string;
-  title: string;
-  icon: string;
-}
 export interface TIcon {
   path: string;
   className?: string;
   size: number;
+}
+
+export interface TActionBarIcons {
+  path: string;
+  id: string;
+  href: string;
+}
+export interface navBarlinkList {
+  title: string;
+  href: string;
+  id: string;
 }

@@ -1,5 +1,0 @@
-function AboutShoes() {
-  return <div>aboutShoes</div>;
-}
-
-export default AboutShoes;

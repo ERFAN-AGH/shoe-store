@@ -2,484 +2,41 @@
   "allShoes": [
     {
       "id": "1",
-      "title": "Part1",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_gUj2zLtIi5zx7IzcF-DC_wBkEXJvvNrMeG05zkSE1Q&s=10",
-      "category": "sandalsShoes",
-      "href": "/store/",
-      "isNew": true,
-      "isTrendS": false,
-      "isBestSelling": false,
-      "isDiscounted": false,
-      "isSingleSize": false,
-      "name": "Jordan",
-      "logo": "/images/brands/jordan.png"
+      "image": "/images/shoes/man.png",
+      "href": "/store/men",
+      "title": "کفش بچگانه",
+      "category": "man"
     },
     {
       "id": "2",
-      "title": "Part2",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHkJtONMtgxIT4h5AzbZtakwPNhhltZhSiaM6nr7zKqQ&s=10",
-      "category": "sandalsShoes",
-      "href": "/store/",
-      "isNew": true,
-      "isTrendS": false,
-      "isBestSelling": false,
-      "isDiscounted": false,
-      "isSingleSize": false,
-
-      "name": "Adidas",
-      "logo": "/images/brands/adidas.png"
+      "image": "/images/shoes/weman.png",
+      "href": "/store/weman",
+      "title": "کفش بچگانه",
+      "category": "weman"
     },
     {
       "id": "3",
-      "title": "Part3",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlNLCSZAzDaoGNcWZsggtrbHgANej4fPL7_lhkNwA_YQ&s=10",
-      "category": "kidsShoes",
-      "href": "/store/",
-      "isNew": true,
-      "isTrendS": false,
-      "isBestSelling": false,
-      "isDiscounted": false,
-      "isSingleSize": false,
-
-      "name": "Nike",
-      "logo": "/images/brands/nike.png"
+      "image": "/images/shoes/kids.jpg",
+      "href": "/store/kids",
+      "title": "کفش بچگانه",
+      "category": "kids"
     },
     {
       "id": "4",
-      "title": "Part4",
-      "views": 200,
-      "category": "kidsShoes",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyiflaFAkN0k34Rr_jUYYLrezi-ByMLgJfQSqDXYEsg&s=10",
-      "href": "/store/",
-      "isNew": true,
-      "isTrendS": false,
-      "isBestSelling": false,
-      "isDiscounted": false,
-      "isSingleSize": false,
-      "name": "New Balance",
-      "logo": "/images/brands/new-balance.png"
+      "image": "/images/shoes/new.jpg",
+      "href": "/store/new",
+      "title": "جدیدترین",
+      "category": "new"
     },
     {
       "id": "5",
-      "title": "Part5",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT52hyFGqvf9Qa8eWPWx7lAkDxj_VdZ42oW--JzXd8zOQ&s=10",
-      "category": "sportShoes",
-      "href": "/store/",
-      "isNew": true,
-      "isTrendS": false,
-      "isBestSelling": false,
-      "isDiscounted": false,
-      "isSingleSize": false,
-      "name": "Under Armour",
-      "logo": "/images/brands/under-armour.png"
-    },
-    {
-      "id": "6",
-      "title": "Part6",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS9EZIlUS1G0Fl45lWOx9bUPM7O_t-66tT4FbozNQxIg&s=10",
-      "category": "sportShoes",
-      "href": "/store/",
-      "isNew": true,
-      "isTrendS": false,
-      "isBestSelling": false,
-      "isDiscounted": false,
-      "isSingleSize": false,
-      "name": "Skechers",
-      "logo": "/images/brands/skechers.png"
-    },
-    {
-      "id": "7",
-      "title": "Part1",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoWduAR-jAGKhLf_-z9vei0qaXR7QSg-xxOwQO6E6R0w&s=10",
-      "category": "manShoes",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": true,
-      "isBestSelling": false,
-      "isDiscounted": false,
-      "isSingleSize": false,
-      "name": "On Running",
-      "logo": "/images/brands/on-running.png"
-    },
-    {
-      "id": "8",
-      "title": "Part2",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6aCc-6T5RKHJF0nRTn_UK2RnvMwAWC4yrZYnvL6wbPg&s=10",
-      "category": "manShoes",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": true,
-      "isBestSelling": false,
-      "isDiscounted": false,
-      "isSingleSize": false,
-      "name": "Alexander McQueen",
-      "logo": "/images/brands/alexander-mcqueen.png",
-      "brands": "columbia"
-    },
-    {
-      "id": "9",
-      "title": "Part3",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWLqEbCAGJpstFR4j6gRRmwATZHzefaFiyYoW8qlSdHA&s",
-      "category": "wemanShoes",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": true,
-      "isBestSelling": false,
-      "isDiscounted": false,
-      "isSingleSize": false,
-      "name": "Columbia",
-      "logo": "/images/brands/columbia.png"
-    },
-    {
-      "id": "10",
-      "title": "Part4",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7hnlQsl-Ov8seBgE2QVHHegzsQMQyEIHtgFCMNQ0LyA&s=10",
-      "category": "wemanShoes",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": true,
-      "isBestSelling": false,
-      "isDiscounted": false,
-      "isSingleSize": false,
-      "name": "Louis Vuitton",
-      "logo": "/images/brands/louis-vuitton.png"
-    },
-    {
-      "id": "11",
-      "title": "Part5",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7hnlQsl-Ov8seBgE2QVHHegzsQMQyEIHtgFCMNQ0LyA&s=10",
-      "category": "wemanShoes",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": true,
-      "isBestSelling": false,
-      "isDiscounted": false,
-      "isSingleSize": false,
-      "name": "Puma",
-      "logo": "/images/brands/puma.png"
-    },
-    {
-      "id": "12",
-      "title": "Part6",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7hnlQsl-Ov8seBgE2QVHHegzsQMQyEIHtgFCMNQ0LyA&s=10",
-      "category": "wemanShoes",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": true,
-      "isBestSelling": false,
-      "isDiscounted": false,
-      "isSingleSize": false,
-      "name": "Reebok",
-      "logo": "/images/brands/reebok.png"
-    },
-    {
-      "id": "13",
-      "title": "Part1",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_gUj2zLtIi5zx7IzcF-DC_wBkEXJvvNrMeG05zkSE1Q&s=10",
-      "category": "sandalsShoes",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": false,
-      "isBestSelling": true,
-      "isDiscounted": false,
-      "isSingleSize": false,
-      "name": "Jordan",
-      "logo": "/images/brands/jordan.png"
-    },
-    {
-      "id": "14",
-      "title": "Part2",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHkJtONMtgxIT4h5AzbZtakwPNhhltZhSiaM6nr7zKqQ&s=10",
-      "category": "sandalsShoes",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": false,
-      "isBestSelling": true,
-      "isDiscounted": false,
-      "isSingleSize": false,
-      "name": "Jordan",
-      "logo": "/images/brands/jordan.png"
-    },
-    {
-      "id": "15",
-      "title": "Part3",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlNLCSZAzDaoGNcWZsggtrbHgANej4fPL7_lhkNwA_YQ&s=10",
-      "category": "kidsShoes",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": false,
-      "isBestSelling": true,
-      "isDiscounted": false,
-      "isSingleSize": false,
-      "name": "Jordan",
-      "logo": "/images/brands/jordan.png"
-    },
-    {
-      "id": "16",
-      "title": "Part4",
-      "views": 200,
-      "category": "kidsShoes",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyiflaFAkN0k34Rr_jUYYLrezi-ByMLgJfQSqDXYEsg&s=10",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": false,
-      "isBestSelling": true,
-      "isDiscounted": false,
-      "isSingleSize": false,
-      "name": "Jordan",
-      "logo": "/images/brands/jordan.png"
-    },
-    {
-      "id": "17",
-      "title": "Part5",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT52hyFGqvf9Qa8eWPWx7lAkDxj_VdZ42oW--JzXd8zOQ&s=10",
-      "category": "sportShoes",
-      "href": "/store/",
-
-      "isNew": false,
-      "isTrendS": false,
-      "isBestSelling": true,
-      "isDiscounted": false,
-      "isSingleSize": false,
-      "name": "Jordan",
-      "logo": "/images/brands/jordan.png"
-    },
-
-    {
-      "id": "18",
-      "title": "Part6",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS9EZIlUS1G0Fl45lWOx9bUPM7O_t-66tT4FbozNQxIg&s=10",
-      "category": "sportShoes",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": false,
-      "isBestSelling": true,
-      "isDiscounted": false,
-      "isSingleSize": false,
-      "name": "Jordan",
-      "logo": "/images/brands/jordan.png"
-    },
-    {
-      "id": "19",
-      "title": "Part1",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_gUj2zLtIi5zx7IzcF-DC_wBkEXJvvNrMeG05zkSE1Q&s=10",
-      "category": "sandalsShoes",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": false,
-      "isBestSelling": false,
-      "isDiscounted": true,
-      "isSingleSize": false,
-      "name": "Jordan",
-      "logo": "/images/brands/jordan.png"
-    },
-    {
-      "id": "20",
-      "title": "Part2",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHkJtONMtgxIT4h5AzbZtakwPNhhltZhSiaM6nr7zKqQ&s=10",
-      "category": "sandalsShoes",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": false,
-      "isBestSelling": false,
-      "isDiscounted": true,
-      "isSingleSize": false,
-      "name": "Jordan",
-      "logo": "/images/brands/jordan.png"
-    },
-    {
-      "id": "21",
-      "title": "Part3",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlNLCSZAzDaoGNcWZsggtrbHgANej4fPL7_lhkNwA_YQ&s=10",
-      "category": "kidsShoes",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": false,
-      "isBestSelling": false,
-      "isDiscounted": true,
-      "isSingleSize": false,
-      "name": "Jordan",
-      "logo": "/images/brands/jordan.png"
-    },
-    {
-      "id": "22",
-      "title": "Part4",
-      "views": 200,
-      "category": "kidsShoes",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyiflaFAkN0k34Rr_jUYYLrezi-ByMLgJfQSqDXYEsg&s=10",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": false,
-      "isBestSelling": false,
-      "isDiscounted": true,
-      "isSingleSize": false,
-      "name": "Jordan",
-      "logo": "/images/brands/jordan.png"
-    },
-    {
-      "id": "23",
-      "title": "Part5",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT52hyFGqvf9Qa8eWPWx7lAkDxj_VdZ42oW--JzXd8zOQ&s=10",
-      "category": "sportShoes",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": false,
-      "isBestSelling": false,
-      "isDiscounted": true,
-      "isSingleSize": false,
-      "name": "Jordan",
-      "logo": "/images/brands/jordan.png"
-    },
-    {
-      "id": "24",
-      "title": "Part6",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS9EZIlUS1G0Fl45lWOx9bUPM7O_t-66tT4FbozNQxIg&s=10",
-      "category": "sportShoes",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": false,
-      "isBestSelling": false,
-      "isDiscounted": true,
-      "isSingleSize": false,
-      "name": "Jordan",
-      "logo": "/images/brands/jordan.png"
-    },
-    {
-      "id": "25",
-      "title": "Part1",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_gUj2zLtIi5zx7IzcF-DC_wBkEXJvvNrMeG05zkSE1Q&s=10",
-      "category": "sandalsShoes",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": false,
-      "isBestSelling": false,
-      "isDiscounted": false,
-      "isSingleSize": true,
-      "name": "Jordan",
-      "logo": "/images/brands/jordan.png"
-    },
-    {
-      "id": "26",
-      "title": "Part2",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHkJtONMtgxIT4h5AzbZtakwPNhhltZhSiaM6nr7zKqQ&s=10",
-      "category": "sandalsShoes",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": false,
-      "isBestSelling": false,
-      "isDiscounted": false,
-      "isSingleSize": true,
-      "name": "Jordan",
-      "logo": "/images/brands/jordan.png"
-    },
-    {
-      "id": "27",
-      "title": "Part3",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlNLCSZAzDaoGNcWZsggtrbHgANej4fPL7_lhkNwA_YQ&s=10",
-      "category": "kidsShoes",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": false,
-      "isBestSelling": false,
-      "isDiscounted": false,
-      "isSingleSize": true,
-      "name": "Jordan",
-      "logo": "/images/brands/jordan.png"
-    },
-    {
-      "id": "28",
-      "title": "Part4",
-      "views": 200,
-      "category": "kidsShoes",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyiflaFAkN0k34Rr_jUYYLrezi-ByMLgJfQSqDXYEsg&s=10",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": false,
-      "isBestSelling": false,
-      "isDiscounted": false,
-      "isSingleSize": true,
-      "name": "Jordan",
-      "logo": "/images/brands/jordan.png"
-    },
-    {
-      "id": "29",
-      "title": "Part5",
-      "views": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT52hyFGqvf9Qa8eWPWx7lAkDxj_VdZ42oW--JzXd8zOQ&s=10",
-      "category": "sportShoes",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": false,
-      "isBestSelling": false,
-      "isDiscounted": false,
-      "isSingleSize": true,
-      "name": "Jordan",
-      "logo": "/images/brands/jordan.png"
-    },
-    {
-      "id": "30",
-      "title": "Part6",
-      "views": 200,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS9EZIlUS1G0Fl45lWOx9bUPM7O_t-66tT4FbozNQxIg&s=10",
-      "category": "sportShoes",
-      "href": "/store/",
-      "isNew": false,
-      "isTrendS": false,
-      "isBestSelling": false,
-      "isDiscounted": false,
-      "isSingleSize": true,
-      "name": "Jordan",
-      "logo": "/images/brands/jordan.png"
+      "image": "/images/shoes/bestSelling.png",
+      "href": "/store/bestSelling",
+      "title": "جدیدترین",
+      "category": "bestSelling"
     }
   ],
 
-  "heroBanner": [
-    {
-      "id": "1",
-      "image": "https://plus.unsplash.com/premium_photo-1728488389835-2f9568c5d76a?q=80&w=995&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "title": "باشگاه مشتریان",
-      "description": " تخفیفات و خبر ای مهم دنیای کفش تنها با عضو شدن در باشگاه مشتریان",
-      "feature": "loyaltyProgram"
-    },
-    {
-      "id": "2",
-      "image": "https://plus.unsplash.com/premium_photo-1682141925554-9ff3aa9f0777?q=80&w=934&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "title": "ارسال فوری",
-      "description": "  میخایی سریع تر به دستت برسه؟ راه حلش اینجاس",
-      "feature": "expressDelivery"
-    },
-    {
-      "id": "3",
-      "image": "https://media.istockphoto.com/id/2201900733/tr/foto%C4%9Fraf/skilled-artisan-carefully-stitching-handcrafted-leather-loafers-on-vintage-sewing-machine.jpg?s=1024x1024&w=is&k=20&c=mijmlcIIZeI3Oavkf-VPpXRdSM7ZX1poJNV5AP7CFH8=",
-      "title": "سایز سفارشی",
-      "description": "  هر جا میری سایز پاتو پیدا نمیکنی؟ ما اینجا به فکر شما هستیم",
-      "feature": "customSize"
-    }
-  ],
   "category": [
     {
       "id": "1",
@@ -537,75 +94,6 @@
       "rowStart": 1
     }
   ],
-  "homeBanner": [
-    {
-      "id": "1",
-      "title": "وقار و استایل با هر قدم",
-      "subtitle": "کفش مجلسی انتخاب شما",
-      "image": "https://images.unsplash.com/photo-1616406432452-07bc5938759d?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    },
-    {
-      "id": "2",
-      "title": "راحتی درسبک روزمره",
-      "subtitle": "کفش اسپرت مناسب هر لحظه",
-      "image": "https://media.istockphoto.com/id/1145677347/tr/foto%C4%9Fraf/gen%C3%A7-adam-ba%C4%9Flama-ayakkab%C4%B1-ba%C4%9F%C4%B1.jpg?s=1024x1024&w=is&k=20&c=7eQvkubl5gi2e_7AKwR1K2dgHUx9y4WsWSEPUb8qUII="
-    },
-    {
-      "id": "3",
-      "title": "زیبایی در جزئیات",
-      "subtitle": "ویژه بانوان خاص پسند",
-      "image": "https://media.istockphoto.com/id/826358868/tr/foto%C4%9Fraf/siyah-arka-plan-%C3%BCzerine-kad%C4%B1n-kahverengi-ayakkab%C4%B1.jpg?s=1024x1024&w=is&k=20&c=AvkRlHsd4cCaEz7qnHnHi6e1hK5V3M5UWIxmqiPJc3w="
-    },
-    {
-      "id": "4",
-      "title": "انرژی در حرکت",
-      "subtitle": "کفش ورزشی همراه همیشگی",
-      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    }
-  ],
-  "homeBannerLink": [
-    {
-      "id": "1",
-      "title": " کفش زمستانه ",
-      "subtitle": "  مردانه وزنانه",
-      "image": "https://images.unsplash.com/photo-1520718458542-6208153eb61a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "href": "/category/winterShoes"
-    },
-    {
-      "id": "2",
-      "title": "کفش تابستانه",
-      "subtitle": " مردانه و زنانه  ",
-      "image": "https://images.unsplash.com/photo-1513654233834-19416b6eed13?q=80&w=958&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "href": "/category/summerShoes"
-    }
-  ],
-  "socialMedia": [
-    {
-      "id": "1",
-      "label": "telegram",
-      "href": "https://t.me/erfaq_13",
-      "icon": "M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"
-    },
-    {
-      "id": "2",
-      "label": "whatsApp",
-      "href": "https://wa.me/989337430122",
-      "icon": "M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
-    },
-    {
-      "id": "3",
-      "label": "instagram",
-      "href": "https://instagram.com/erfaq_13",
-      "icon": "M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
-    }
-  ],
-  "phoneNumber": [
-    {
-      "id": "1",
-      "href": "tel:+989337430122",
-      "label": "09337430122"
-    }
-  ],
   "topBarRightLinks": [
     {
       "id": "1",
@@ -642,6 +130,62 @@
       "id": "3",
       "title": " ارسال رایگان برای اولین خرید",
       "icon": "M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9 9 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a10 10 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093q.1.026.16.045c.184.06.279.13.351.295l.029.073a3.5 3.5 0 0 1 .157.721c.055.485.051 1.178-.159 2.065m-4.828 7.475.04-.04-.107 1.081a1.54 1.54 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a9 9 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006M5.205 5c-.625.626-.94 1.351-1.004 2.09a9 9 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a3 3 0 0 0-.045-.283 3 3 0 0 0-.3-.041Z"
+    }
+  ],
+  "actionBarIcons": [
+    {
+      "id": "1",
+      "path": "M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z",
+      "href": "/profile"
+    },
+    {
+      "id": "2",
+      "href": "/wishlist",
+      "path": "m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"
+    },
+    {
+      "id": "3",
+      "href": "cart",
+      "path": "M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+    }
+  ],
+  "navBarLinkList": [
+    { "title": "خانه ", "href": "/", "id": "1" },
+    {
+      "title": "مردانه ",
+      "href": "/store/man",
+      "id": "2"
+    },
+
+    {
+      "title": " زنانه   ",
+      "href": "/store/weman",
+      "id": "4"
+    },
+    {
+      "title": " بچگانه  ",
+      "href": "/store/kids",
+      "id": "5"
+    },
+    {
+      "title": "  جدیدترین ها  ",
+      "href": "/store/new",
+      "id": "6"
+    },
+    {
+      "title": "  برند ها  ",
+      "href": "/store/brands",
+      "id": "7"
+    },
+    {
+      "title": "  فروش ویژه  ",
+      "href": "/store/bestSelling",
+      "id": "8"
+    },
+    {
+      "title": "  وبلاگ ",
+      "href": "/blog",
+      "id": "9"
     }
   ]
 }

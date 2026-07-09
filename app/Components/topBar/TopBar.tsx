@@ -8,12 +8,16 @@ function TopBar() {
   const topBarInfoItems = db.topBarInfoItems as TopBarInfoItemType[];
 
   return (
-    <div className=" h-10 bg-[#1B5E20] text-[#FFFFFF] flex justify-between items-center text-sm px-5">
-      <div className="flex gap-5">
+    <div className=" h-10 bg-[#1B5E20] text-[#FFFFFF]  flex justify-between items-center text-[12px] px-5">
+      <div className="flex gap-5 ">
         {topBarRightLinks.map((item) => (
-          <Link key={item.id} href={item.href} className="flex gap-1">
+          <Link
+            key={item.id}
+            href={item.href}
+            className="flex gap-1 hover:text-[#C8E6C9]"
+          >
             <h6> {item.title}</h6>
-            <Icon path={item.icon} size={16} className="" />
+            <Icon path={item.icon} size={16} className="text-[#E8F5E9] " />
           </Link>
         ))}
       </div>
@@ -21,7 +25,7 @@ function TopBar() {
         {topBarInfoItems.map((item) => (
           <div key={item.id} className="flex gap-1">
             <h6>{item.title}</h6>
-            <Icon path={item.icon} size={16} className="" />
+            <Icon path={item.icon} size={16} className="text-[#E8F5E9]" />
           </div>
         ))}
       </div>

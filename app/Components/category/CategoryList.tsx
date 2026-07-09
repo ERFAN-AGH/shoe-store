@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Button from "../button/Button";
 import db from "./../../../data/db.json";
-import SectionHeader from "../sectionHeader/SectionHeader";
 
 export interface TCategory {
   id: string;
@@ -21,8 +20,6 @@ async function CategoryList() {
 
   return (
     <div>
-      <SectionHeader title=" دسته بندی " href="/category" />
-
       <div className="grid grid-cols-12 grid-rows-2 gap-5 mx-5 h-125 ">
         {data.map((item) => (
           <div
