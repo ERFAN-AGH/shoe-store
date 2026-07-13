@@ -28,3 +28,14 @@ export interface navBarlinkList {
   href: string;
   id: string;
 }
+
+export interface homeBanner {
+  id: string;
+  image: string;
+}
+
+export interface topBarInfoItemsType {
+  id: string;
+  title: string;
+  icon: string;
+}

@@ -1,11 +1,11 @@
 import Link from "next/link";
 import db from "@/data/db.json";
-import { TopBarInfoItemType, TopBarLinkType } from "@/app/Type/Type";
+import { topBarInfoItemsType, TopBarLinkType } from "@/app/Type/Type";
 import Icon from "../icon/Icon";
 
 function TopBar() {
   const topBarRightLinks = db.topBarRightLinks as TopBarLinkType[];
-  const topBarInfoItems = db.topBarInfoItems as TopBarInfoItemType[];
+  const topBarInfoItems = db.topBarInfoItems as topBarInfoItemsType[];
 
   return (
     <div className=" h-10 bg-[#1B5E20] text-[#FFFFFF]  flex justify-between items-center text-[12px] px-5">
