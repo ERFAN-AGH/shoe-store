@@ -131,9 +131,55 @@
     }
   ],
   "homeBanner": [
-    { "id": "1", "image": "/images/banner/homeBanner1.jpg" },
-    { "id": "2", "image": "/images/banner/homeBanner2.jpg" },
-    { "id": "3", "image": "/images/banner/homeBanner3.jpg" },
-    { "id": "4", "image": "/images/banner/homeBanner4.jpg" }
+    {
+      "id": "1",
+      "image": "/images/banner/homeBanner01.jpg",
+      "collectionTitle": "مجموعه  بدنسازی",
+      "bannerTitle": "از گرم کردن تا سنگین ترین ست ",
+      "subTitleOne": "پایداری که هیچوقت جا نمیزنه",
+      "subTitleTow": "کفش های بدنسازی،ساخته شده برای فشار واقعی",
+      "buttonCollection": "مشاهده کالکشن",
+      "buttonCard": "مشاهده کفش"
+    },
+    {
+      "id": "2",
+      "image": "/images/banner/homeBanner02.jpg",
+      "collectionTitle": " مجموعه کوهنوردی",
+      "bannerTitle": "از اولین قدم تا قله     ",
+      "subTitleOne": " هر مسیر سخت،با اطمینان رد شو ",
+      "subTitleTow": "ساخته شده برای مسیرهایی که آسون نیستن",
+      "buttonCollection": "مشاهده کالکشن",
+      "buttonCard": "مشاهده کفش"
+    },
+    {
+      "id": "3",
+      "image": "/images/banner/homeBanner03.jpg",
+      "collectionTitle": "مجموعه بسکتبال",
+      "bannerTitle": "از اولین جهش تا فرود آخر",
+      "subTitleOne": "بپر بالاتر،فرود مطئمن تر",
+      "subTitleTow": " هر حرکت،باکنترل کامل زمین",
+      "buttonCollection": "مشاهده کالکشن",
+      "buttonCard": "مشاهده کفش"
+    },
+    {
+      "id": "4",
+      "image": "/images/banner/homeBanner04.jpg",
+      "collectionTitle": "مجموعه پیاده روی",
+      "bannerTitle": "از اولین قدم صبح تا آخرین قدم شب",
+      "subTitleOne": " هر قدم راحت و بی دغدغه",
+      "subTitleTow": " قدم بردار،سبک و راحت",
+      "buttonCollection": "مشاهده کالکشن",
+      "buttonCard": "مشاهده کفش"
+    },
+    {
+      "id": "5",
+      "image": "/images/banner/homeBanner05.jpg",
+      "collectionTitle": "مجموعه والیبال",
+      "bannerTitle": "ازسرویس اول تا امتیاز آخر",
+      "subTitleOne": "آماده برای هر رالی",
+      "subTitleTow": "ساخته شده برای پرش ",
+      "buttonCollection": "مشاهده کالکشن",
+      "buttonCard": "مشاهده کفش"
+    }
   ]
 }

@@ -32,6 +32,12 @@ export interface navBarlinkList {
 export interface homeBanner {
   id: string;
   image: string;
+  collectionTitle: string;
+  bannerTitle: string;
+  subTitleOne: string;
+  subTitleTow: string;
+  buttonCollection: string;
+  buttonCard: string;
 }
 
 export interface topBarInfoItemsType {
