@@ -45,3 +45,10 @@ export interface topBarInfoItemsType {
   title: string;
   icon: string;
 }
+
+export interface TBrandLogo {
+  id?: string;
+  logoPath: string;
+  size?: number;
+  color?: string;
+}
