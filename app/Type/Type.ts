@@ -48,7 +48,8 @@ export interface topBarInfoItemsType {
 
 export interface TBrandLogo {
   id?: string;
-  logoPath: string;
+  paths: string[];
   size?: number;
   color?: string;
+  viewBox: string;
 }

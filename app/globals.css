@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@keyframes brand-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-brand-scroll {
+  animation: brand-scroll 30s linear infinite;
+}

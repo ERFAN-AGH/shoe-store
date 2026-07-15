@@ -25,7 +25,7 @@ function TopBar() {
         {topBarInfoItems.map((item) => (
           <div key={item.id} className="flex gap-1">
             <h6>{item.title}</h6>
-            <Icon path={item.icon} size={16} className="text-[#E8F5E9]" />
+            <Icon path={item.icon} size={16} className="text-[#E8F5E9] " />
           </div>
         ))}
       </div>

@@ -6,7 +6,7 @@ import Link from "next/link";
 function ActionBar() {
   const actionBarIcons = db.actionBarIcons as TActionBarIcons[];
   return (
-    <div className="flex gap-3 text-[#374151] ">
+    <div className="flex gap-3 text-[#373951] ">
       <div className="flex items-center  bg-[#F5F9F3] border border-[#DDE8D9]  focus-within:border-[#6B9B5E] rounded-2xl px-2 py-1">
         <input
           type="search"
