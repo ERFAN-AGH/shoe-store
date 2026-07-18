@@ -1,19 +1,20 @@
 import { TBrandLogo } from "@/app/Type/Type";
-import BrandLogo from "./BrandLogo";
+
+import BrandCard from "./BrandCard";
 
 type BrandSliderProps = {
   items: TBrandLogo[];
 };
 
 function BrandSlider({ items }: BrandSliderProps) {
-  const loopItems = [...items, ...items]; // فقط ۲ بار، نه بیشتر
+  const loopItems = [...items, ...items];
 
   return (
     <div className="overflow-hidden w-full" dir="ltr">
       <div className="flex w-max animate-brand-scroll">
         {loopItems.map((item, i) => (
           <div className="mr-16 shrink-0" key={`${item.id}-${i}`}>
-            <BrandLogo {...item} />
+            <BrandCard {...item} />
           </div>
         ))}
       </div>

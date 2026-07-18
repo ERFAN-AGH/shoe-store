@@ -53,3 +53,13 @@ export interface TBrandLogo {
   color?: string;
   viewBox: string;
 }
+
+export interface catrgoryType {
+  id: string;
+  image: string;
+  title: string;
+  subTitle: string;
+  colStart: string;
+  rowStart: string;
+  rowSpan: string;
+}
