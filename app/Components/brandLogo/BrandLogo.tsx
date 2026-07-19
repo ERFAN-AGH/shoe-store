@@ -1,5 +1,5 @@
 import db from "@/data/db.json";
-import Icon from "../icon/Icon";
+import Icon from "./../icon/Icon";
 import BrandSlider from "./BrandSlider";
 import { TBrandLogo } from "@/app/Type/Type";
 

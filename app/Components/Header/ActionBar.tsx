@@ -1,7 +1,8 @@
 import { TActionBarIcons } from "@/app/Type/Type";
 import db from "@/data/db.json";
-import Icon from "../icon/Icon";
+
 import Link from "next/link";
+import Icon from "./../icon/Icon";
 
 function ActionBar() {
   const actionBarIcons = db.actionBarIcons as TActionBarIcons[];

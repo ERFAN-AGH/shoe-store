@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "./Components/header/Navbar";
+import Navbar from "./components/header/Navbar";
 import localFont from "next/font/local";
 
-import Scroll from "./Components/scroll/Scroll";
-import TopBar from "./Components/topBar/TopBar";
+import Scroll from "./components/scroll/Scroll";
+import TopBar from "./components/topBar/TopBar";
 
 const vazir = localFont({
   src: [

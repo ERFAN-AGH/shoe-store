@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import Button from "../button/Button";
+import Button from "./../button/Button";
 
 function Scroll() {
   const [showButton, setShowButton] = useState(false);

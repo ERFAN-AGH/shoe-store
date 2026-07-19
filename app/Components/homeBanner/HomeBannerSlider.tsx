@@ -3,7 +3,7 @@
 import { homeBanner } from "@/app/Type/Type";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import Button from "../button/Button";
+import Button from "./../button/Button";
 
 type HomeBannerSliderProps = {
   items: homeBanner[];

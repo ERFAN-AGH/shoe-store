@@ -2,7 +2,7 @@
 import { useRef } from "react";
 import { ProductType } from "@/app/Type/Type";
 import NewArrivalsBannerCard from "./NewArrivalsBannerCard";
-import Button from "../button/Button";
+import Button from "./../button/Button";
 
 export default function NewArrivalsBannerSlider({
   items,

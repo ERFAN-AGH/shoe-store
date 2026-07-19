@@ -1,4 +1,4 @@
-import NavList from "./NavList";
+import NavList from ".//NavList";
 import ActionBar from "./ActionBar";
 import Icon from "../icon/Icon";
 
