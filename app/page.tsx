@@ -1,6 +1,7 @@
 import BrandLogo from "./Components/brandLogo/BrandLogo";
 import CategoryGrid from "./Components/categoryGrid/CategoryGrid";
 import HomeBanner from "./Components/homeBanner/HomeBanner";
+import NewArrivalsBanner from "./Components/newArrivalsBanner/NewArrivalsBanner";
 import Scroll from "./Components/scroll/Scroll";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <HomeBanner />
       <BrandLogo />
       <CategoryGrid />
+      <NewArrivalsBanner />
     </div>
   );
 }

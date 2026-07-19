@@ -83,7 +83,7 @@ function HomeBannerSlider({ items }: HomeBannerSliderProps) {
           <button
             key={index}
             onClick={() => setCurrent(index)}
-            className={`w-3 h-3 rounded-full transition-all ${
+            className={`w-3 h-3 rounded-full transition-all cursor-pointer ${
               index === current
                 ? "bg-[#1B5E20] w-6 duration-700"
                 : "bg-white/50"

@@ -2,38 +2,55 @@
   "allShoes": [
     {
       "id": "1",
-      "image": "/images/shoes/man.png",
-      "href": "/store/men",
-      "title": "کفش بچگانه",
-      "category": "man"
+      "image": "/images/shoes/shoe1.png",
+      "title": "Nike Air VaporMax Style",
+      "category": "مردانه",
+      "price": 2900000,
+      "isNew": true
     },
     {
       "id": "2",
-      "image": "/images/shoes/weman.png",
-      "href": "/store/weman",
-      "title": "کفش بچگانه",
-      "category": "weman"
+      "image": "/images/shoes/shoe2.png",
+      "title": "Reebok Zig Kinetica 3",
+      "category": "مردانه",
+      "price": 3500000,
+      "isNew": true
     },
     {
       "id": "3",
-      "image": "/images/shoes/kids.jpg",
-      "href": "/store/kids",
-      "title": "کفش بچگانه",
-      "category": "kids"
+      "image": "/images/shoes/shoe3.png",
+      "title": " Nike Air Zoom Pegasus 39",
+      "category": "مردانه",
+      "price": 2400000,
+      "isNew": true
     },
     {
       "id": "4",
-      "image": "/images/shoes/new.jpg",
-      "href": "/store/new",
+      "image": "/images/shoes/shoe4.png",
       "title": "جدیدترین",
-      "category": "new"
+      "isNew": false
     },
     {
       "id": "5",
-      "image": "/images/shoes/bestSelling.png",
-      "href": "/store/bestSelling",
+      "image": "/images/shoes/shoe5.png",
       "title": "جدیدترین",
-      "category": "bestSelling"
+      "isNew": false
+    },
+    {
+      "id": "6",
+      "image": "/images/shoes/shoe6.png",
+      "title": "Peak Taichi Mid Style",
+      "category": "بچگانه",
+      "price": 3800000,
+      "isNew": true
+    },
+    {
+      "id": "7",
+      "image": "/images/shoes/shoe7.png",
+      "title": " Nike Air Zoom Pegasus 40",
+      "category": "زنانه",
+      "price": 2100000,
+      "isNew": true
     }
   ],
   "topBarRightLinks": [

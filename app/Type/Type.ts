@@ -1,9 +1,10 @@
 export interface ProductType {
   id: string;
   image: string;
-  href: string;
   title: string;
+  isNew: boolean;
   category: string;
+  price: number;
 }
 export interface TopBarLinkType {
   id: string;
