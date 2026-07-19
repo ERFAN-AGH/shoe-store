@@ -2,7 +2,7 @@ import BrandLogo from "./components/brandLogo/BrandLogo";
 import CategoryGrid from "./components/categoryGrid/CategoryGrid";
 import HomeBanner from "./components/homeBanner/HomeBanner";
 import NewArrivalsBanner from "./components/newArrivalsBanner/NewArrivalsBanner";
-import Scroll from "./Components/scroll/Scroll";
+import Scroll from "./components/scroll/Scroll";
 
 export default function Home() {
   return (
