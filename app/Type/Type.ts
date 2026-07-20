@@ -64,3 +64,12 @@ export interface catrgoryType {
   rowStart: string;
   rowSpan: string;
 }
+
+export interface promoSection {
+  id: string;
+  image: string;
+  title: string;
+  subTitle: string;
+  category: string;
+  buttonTitle: string;
+}

@@ -21,7 +21,7 @@ function CategoryGrid() {
             src={item.image}
             alt={item.title}
             fill
-            className="object-cover rounded-2xl group-hover:scale-125 transition-transform duration-700"
+            className="object-cover rounded-2xl group-hover:scale-110 transition-transform duration-700"
           />
           <div className="absolute inset-0 bg-linear-to-t from-black/55 via-black/15  to-transparent"></div>
 

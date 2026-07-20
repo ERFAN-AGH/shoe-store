@@ -363,5 +363,23 @@
       "rowStart": "2",
       "rowSpan": "1"
     }
+  ],
+  "promoSection": [
+    {
+      "id": "1",
+      "image": "/images/promoSection/promoSection.jpg",
+      "title": "تا 40% تخفیف",
+      "subTitle": "بزرگترین حراجی فصل رو از دست نده",
+      "category": "حراج تابستانه",
+      "buttonTitle": "مشاهده تخفیفات"
+    },
+    {
+      "id": "2",
+      "image": "/images/promoSection/promoSection01.jpg",
+      "title": "پرفروش ترین ها",
+      "subTitle": "محصولاتی که همه دران میخرن رو ببین",
+      "category": "جدیدترین محصولات",
+      "buttonTitle": "مشاهده پرفروش ها"
+    }
   ]
 }
