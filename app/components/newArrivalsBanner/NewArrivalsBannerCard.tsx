@@ -4,7 +4,7 @@ import Icon from "../icon/Icon";
 
 function NewArrivalsBannerCard({ category, image, title, price }: ProductType) {
   return (
-    <div className="bg-[#F8F7F5] mx-2  rounded-2xl relative my-4 hover:scale-105 transition-transform duration-200">
+    <div className="bg-[#f0f0ef] mx-2  rounded-2xl relative my-4 hover:scale-105 transition-transform duration-200">
       <div className="  absolute left-5 top-4 ">
         <Icon
           className="text-[#1B5E20] hover:text-red-500 cursor-pointer"

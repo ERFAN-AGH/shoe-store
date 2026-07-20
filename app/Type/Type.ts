@@ -45,6 +45,7 @@ export interface topBarInfoItemsType {
   id: string;
   title: string;
   icon: string;
+  subTitle?: string;
 }
 
 export interface TBrandLogo {
