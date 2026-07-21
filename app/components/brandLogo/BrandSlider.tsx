@@ -1,9 +1,9 @@
-import { TBrandLogo } from "@/app/Type/Type";
+import { IconType } from "@/app/Type/Type";
 
-import BrandCard from "./BrandCard";
+import Icon from "../icon/Icon";
 
 type BrandSliderProps = {
-  items: TBrandLogo[];
+  items: IconType[];
 };
 
 function BrandSlider({ items }: BrandSliderProps) {
@@ -13,8 +13,11 @@ function BrandSlider({ items }: BrandSliderProps) {
     <div className="overflow-hidden w-full" dir="ltr">
       <div className="flex w-max animate-brand-scroll">
         {loopItems.map((item, i) => (
-          <div className="mr-16 shrink-0" key={`${item.id}-${i}`}>
-            <BrandCard {...item} />
+          <div
+            className="mr-16 shrink-0 text-[#355E3B]"
+            key={`${item.id}-${i}`}
+          >
+            <Icon {...item} />
           </div>
         ))}
       </div>

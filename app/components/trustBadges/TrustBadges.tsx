@@ -8,7 +8,7 @@ function TrustBadges() {
     <div className="flex rounded-2xl  bg-[#EEF4E6] px-5 mx-5 justify-around h-20">
       {data.map((item) => (
         <div key={item.id} className="flex gap-3 items-center  text-[#1B5E20]">
-          <Icon path={item.icon} size={30} />
+          <Icon paths={[item.icon]} size={30} viewBox={item.viewBox} />
           <div>
             <h1 className="text-xl font-bold">{item.title}</h1>
             <p className="text-sm">{item.subTitle}</p>

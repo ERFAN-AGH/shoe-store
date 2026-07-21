@@ -1,16 +1,26 @@
-import { TIcon } from "@/app/Type/Type";
+import { IconType } from "@/app/Type/Type";
 
-function Icon({ path, size, className }: TIcon) {
+function Icon({
+  paths,
+  viewBox,
+
+  size = 150,
+  className,
+}: IconType) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
-      fill="currentColor"
-      viewBox="0 0 16 16"
+      viewBox={viewBox}
+      style={{ cursor: "pointer " }}
       className={className}
     >
-      <path d={path} />
+      <g fillRule="evenodd" clipRule="evenodd">
+        {paths.map((d, index) => (
+          <path key={index} d={d} fill="currentColor" />
+        ))}
+      </g>
     </svg>
   );
 }

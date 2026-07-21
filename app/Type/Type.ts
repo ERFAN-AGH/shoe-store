@@ -11,6 +11,7 @@ export interface TopBarLinkType {
   title: string;
   href: string;
   icon: string;
+  viewBox: string;
 }
 
 export interface TIcon {
@@ -23,6 +24,7 @@ export interface TActionBarIcons {
   path: string;
   id: string;
   href: string;
+  viewBox: string;
 }
 export interface navBarlinkList {
   title: string;
@@ -46,14 +48,15 @@ export interface topBarInfoItemsType {
   title: string;
   icon: string;
   subTitle?: string;
+  viewBox: string;
 }
 
-export interface TBrandLogo {
+export interface IconType {
   id?: string;
   paths: string[];
   size?: number;
-  color?: string;
   viewBox: string;
+  className?: string;
 }
 
 export interface catrgoryType {
@@ -73,4 +76,11 @@ export interface promoSection {
   subTitle: string;
   category: string;
   buttonTitle: string;
+}
+
+export interface PopularCategoryesType {
+  id: string;
+  paths: string[];
+  viewBox: string;
+  title: string;
 }

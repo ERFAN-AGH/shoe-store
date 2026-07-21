@@ -14,10 +14,15 @@ function TopBar() {
           <Link
             key={item.id}
             href={item.href}
-            className="flex gap-1 hover:text-[#C8E6C9]"
+            className="flex gap-1 group hover:text-[#C8E6C9]"
           >
             <h6> {item.title}</h6>
-            <Icon path={item.icon} size={16} className="text-[#E8F5E9] " />
+            <Icon
+              paths={[item.icon]}
+              size={16}
+              className="group-hover:text-[#C8E6C9] text-[#E8F5E9]"
+              viewBox={item.viewBox}
+            />
           </Link>
         ))}
       </div>
@@ -25,7 +30,12 @@ function TopBar() {
         {topBarInfoItems.map((item) => (
           <div key={item.id} className="flex gap-1">
             <h6>{item.title}</h6>
-            <Icon path={item.icon} size={16} className="text-[#E8F5E9] " />
+            <Icon
+              paths={[item.icon]}
+              size={16}
+              className="text-[#E8F5E9] "
+              viewBox={item.viewBox}
+            />
           </div>
         ))}
       </div>
