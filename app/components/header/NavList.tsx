@@ -4,13 +4,19 @@ import { usePathname } from "next/navigation";
 import db from "@/data/db.json";
 import { navBarlinkList } from "@/app/Type/Type";
 
-function NavList() {
+function NavList({ direction = "row" }) {
+  const layoutClass =
+    direction === "col"
+      ? "flex flex-col gap-2"
+      : direction === "grid"
+        ? "grid grid-cols-2 gap-x-6 gap-y-2"
+        : "flex flex-row gap-4";
   const navLinks = db.navBarLinkList as navBarlinkList[];
   const pathname = usePathname();
   return (
     <div>
       <ul>
-        <li className="flex gap-3 items-center">
+        <li className={layoutClass}>
           {navLinks.map((item) => (
             <Link
               href={item.href}

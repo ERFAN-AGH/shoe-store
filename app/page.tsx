@@ -1,5 +1,6 @@
 import BrandLogo from "./components/brandLogo/BrandLogo";
 import CategoryGrid from "./components/categoryGrid/CategoryGrid";
+import Footer from "./components/footer/Footer";
 import HomeBanner from "./components/homeBanner/HomeBanner";
 import NewArrivalsBanner from "./components/newArrivalsBanner/NewArrivalsBanner";
 import PopularCategoryes from "./components/popularCategories/PopularCategoryes";
@@ -18,6 +19,7 @@ export default function Home() {
       <PromoSection />
       <PopularCategoryes />
       <TrustBadges />
+      <Footer />
     </div>
   );
 }

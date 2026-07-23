@@ -11,7 +11,7 @@ function PopularCategoryes() {
         {data.map((item) => (
           <div
             key={item.id}
-            className="bg-[#f0f0ef] items-center justify-centers flex flex-col gap-4 p-4 rounded-2xl"
+            className="bg-[#f0f0ef] items-center justify-centers flex flex-col gap-4 p-4 rounded-2xl hover:scale-110 transition-transform duration-200"
           >
             <Icon paths={item.paths} size={60} viewBox={item.viewBox} />
             <h1>{item.title}</h1>
